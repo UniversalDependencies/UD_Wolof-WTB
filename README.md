@@ -19,7 +19,7 @@
 Data available since: UD v2.3
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: nonfiction bible wiki
+Genre: bible wiki
 Lemmas: manual native
 UPOS: manual native
 XPOS: not available
