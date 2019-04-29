@@ -6,7 +6,7 @@ UD_Wolof-WTB is a natively manual developed treebank for Wolof. Sentences were c
 UD_Wolof-WTB was developed 2018-2019 at the University of Bergen. The treebank contains around 43,000 tokens taken from a variety of genres (encyclopedic, informative, narrative, didactic, and expository). UD_Wolof-WTB is annotated for POS tag, morphological information and dependency relations. As the language shows complex interaction between morphology and cliticization, clitics have been segmented manually.
 
 The treebank contains articles taken from the following sources: 
-OSAD (http://www.osad-sn.com):6 articles (6269 tokens)
+OSAD (http://www.osad-sn.com): 6 articles (6269 tokens)
 Wolof Online http://www.wolof-online.com: 18 articles (12988 tokens)
 Wolof Wikipedia (https://wo.wikipedia.org): 12 articles (9232 tokens) 
 Xibaaryi.com (http://www.xibaaryi.com): 17 articles (15095 tokens)
