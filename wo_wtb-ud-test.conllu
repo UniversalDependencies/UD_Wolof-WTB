@@ -734,11 +734,11 @@
 26	ci	ci	ADP	PREP	_	28	obl	28:obl	_
 27	doon	di	AUX	AUX	Aspect=Imp|Mood=Ind|Tense=Past	28	aux	28:aux	_
 28	jot	jot	VERB	VERB	Mood=Ind|VerbForm=Fin	8	parataxis	8:parataxis	SpaceAfter=No
-29	:	:	PUNCT	COLON	_	33	punct	33:punct	_
-30	doonoon	doon	AUX	COP	Mood=Ind|Tense=Past|VerbForm=Fin	33	cop	33:cop	_
-31	nañu	na	AUX	INFL	Aspect=Perf|Mood=Ind|Number=Plur|Person=3	33	aux	33:aux	_
+29	:	:	PUNCT	COLON	_	30	punct	30:punct	_
+30	doonoon	doon	VERB	COP	Mood=Ind|Tense=Past|VerbForm=Fin	28	parataxis	28:parataxis	_
+31	nañu	na	AUX	INFL	Aspect=Perf|Mood=Ind|Number=Plur|Person=3	30	aux	30:aux	_
 32	ay	ab	DET	DET	Definite=Ind|NounClass=Wol8|Number=Plur|PronType=Art	33	det	33:det	_
-33	téere	téere	NOUN	NOUN	_	28	parataxis	28:parataxis	_
+33	téere	téere	NOUN	NOUN	_	30	xcomp	30:xcomp	_
 34	yu	bu	PRON	PRON	NounClass=Wol8|Number=Plur|Person=3|PronType=Rel	35	nsubj	35:nsubj	_
 35	seer	seer	VERB	VERB	Mood=Ind|VerbForm=Fin	33	acl:relcl	33:acl:relcl	_
 36	lool	lool	ADV	ADV	_	35	advmod	35:advmod	SpaceAfter=No
@@ -2196,10 +2196,10 @@
 
 # sent_id = wo_wtb-ud-train_431
 # text = Kleopaatar VII doonoon buuru Misra (Egypte) bu jigéen, te ñu ko daan woowe "Grek bi" ndax li mu bokkoon ci askanu ptolémaïque sosoo Masedoni (Macédonie).
-1	Kleopaatar	Kleopaatar	PROPN	NAME	_	4	nsubj	4:nsubj	_
+1	Kleopaatar	Kleopaatar	PROPN	NAME	_	3	nsubj	3:nsubj	_
 2	VII	VII	NUM	NUMBER	NumType=Card	1	nummod	1:nummod	_
-3	doonoon	doon	AUX	COP	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
-4	buuru	buur	NOUN	NOUN	Case=Gen|Number=Sing	0	root	0:root	_
+3	doonoon	doon	VERB	COP	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
+4	buuru	buur	NOUN	NOUN	Case=Gen|Number=Sing	3	xcomp	3:xcomp	_
 5	Misra	Misra	PROPN	NAME	_	4	nmod	4:nmod	_
 6	(	(	PUNCT	PAREN	_	7	punct	7:punct	SpaceAfter=No
 7	Egypte	Egypte	PROPN	NAME	_	5	appos	5:appos	SpaceAfter=No
@@ -2211,7 +2211,7 @@
 13	ñu	mu	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	16:nsubj	_
 14	ko	ko	PRON	CL	Case=Acc|Number=Sing|Person=3|PronType=Prs	16	obj	16:obj	_
 15	daan	di	AUX	AUX	Aspect=Hab|Mood=Ind|Tense=Past	16	aux	16:aux	_
-16	woowe	woowe	VERB	VERB	Aspect=Perf|Mood=Ind|VerbForm=Fin	4	conj	4:conj	_
+16	woowe	woowe	VERB	VERB	Aspect=Perf|Mood=Ind|VerbForm=Fin	3	conj	3:conj	_
 17	"	"	PUNCT	QUOTE	_	18	punct	18:punct	SpaceAfter=No
 18	Grek	Grek	PROPN	NAME	_	16	iobj	16:iobj	_
 19	bi	bi	DET	DET	Definite=Def|Deixis=Prox|NounClass=Wol5|Number=Sing|PronType=Art	18	det	18:det	SpaceAfter=No
@@ -2228,7 +2228,7 @@
 30	(	(	PUNCT	PAREN	_	31	punct	31:punct	SpaceAfter=No
 31	Macédonie	Macédonie	PROPN	NAME	_	29	appos	29:appos	SpaceAfter=No
 32	)	)	PUNCT	PAREN	_	31	punct	31:punct	SpaceAfter=No
-33	.	.	PUNCT	PERIOD	_	4	punct	4:punct	_
+33	.	.	PUNCT	PERIOD	_	3	punct	3:punct	_
 
 # sent_id = wo_wtb-ud-train_432
 # text = Ndeke ku ñuul la woon.
@@ -2279,7 +2279,7 @@
 10	Isaa	Isaa	PROPN	NAME	_	9	flat	9:flat	SpaceAfter=No
 11	,	,	PUNCT	COMMA	_	14	punct	14:punct	_
 12	ma	mu	PRON	PRON	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	14:nsubj	_
-13	nga	nga	AUX	AUX	Aspect=Prog	14	aux	14:aux	_
+13	nga	ngi	AUX	AUX	Aspect=Prog	14	aux	14:aux	_
 14	bokkoon	bokk	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
 15	ca	ca	ADP	PREP	_	16	case	16:case	_
 16	askanu	askan	NOUN	NOUN	Case=Gen|Number=Sing	14	obl	14:obl	_
@@ -2447,11 +2447,11 @@
 
 # sent_id = wo_wtb-ud-train_440
 # text = Li ndeyi Arsinoe doonoon nit ku ñuul dëgg-dëgg ëpp na tool.
-1	Li	li	SCONJ	COMP	_	5	mark	5:mark	_
-2	ndeyi	ndey	NOUN	NOUN	Case=Gen|Number=Plur	5	nsubj	5:nsubj	_
+1	Li	li	SCONJ	COMP	_	4	mark	4:mark	_
+2	ndeyi	ndey	NOUN	NOUN	Case=Gen|Number=Plur	4	nsubj	4:nsubj	_
 3	Arsinoe	Arsinoe	PROPN	NAME	_	2	nmod	2:nmod	_
-4	doonoon	doon	AUX	COP	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
-5	nit	nit	NOUN	NOUN	_	9	csubj	9:csubj	_
+4	doonoon	doon	VERB	COP	Mood=Ind|Tense=Past|VerbForm=Fin	9	csubj	9:csubj	_
+5	nit	nit	NOUN	NOUN	_	4	xcomp	4:xcomp	_
 6	ku	bu	PRON	PRON	NounClass=Wol1|Number=Sing|Person=3|PronType=Rel	7	nsubj	7:nsubj	_
 7	ñuul	ñuul	VERB	VERB	Mood=Ind|VerbForm=Fin	5	acl:relcl	5:acl:relcl	_
 8	dëgg-dëgg	dëgg-dëgg	ADV	ADV	_	9	advmod	9:advmod	_
@@ -2562,8 +2562,8 @@
 10	Kawe	Kaw	VERB	VERB	Mood=Ind|VerbForm=Fin	8	acl:relcl	8:acl:relcl	_
 11	ju	bu	ADP	PREP	NounClass=Wol4|Number=Sing|Person=3	12	case	12:case	_
 12	Ndar	Ndar	PROPN	NAME	_	8	nmod	8:nmod	_
-13	doonoon	doon	AUX	COP	Mood=Ind|Tense=Past|VerbForm=Fin	14	cop	14:cop	_
-14	gëstug	gëstu	NOUN	NOUN	Case=Gen|Number=Sing	3	conj	3:conj	_
+13	doonoon	doon	VERB	COP	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	3:conj	_
+14	gëstug	gëstu	NOUN	NOUN	Case=Gen|Number=Sing	13	xcomp	13:xcomp	_
 15	jeexal	jeexal	NOUN	NOUN	_	14	nmod	14:nmod	_
 16	gu	gu	ADP	PREP	NounClass=Wol3|Number=Sing|Person=3	17	case	17:case	_
 17	ndongo	ndongo	NOUN	NOUN	_	15	nmod	15:nmod	_
@@ -3152,17 +3152,17 @@
 
 # sent_id = wo_wtb-ud-train_1680
 # text = Loolu doon na luy yokk xereñug askan wi.
-1	Loolu	boobu	PRON	PRON	Deixis=Prox|DeixisRef=2|NounClass=Wol7|Number=Sing|PronType=Dem	4	nsubj	4:nsubj	_
-2	doon	doon	AUX	COP	Mood=Ind|VerbForm=Fin	4	cop	4:cop	_
-3	na	na	AUX	INFL	Aspect=Perf|Mood=Ind|Number=Sing|Person=3	4	aux	4:aux	_
+1	Loolu	boobu	PRON	PRON	Deixis=Prox|DeixisRef=2|NounClass=Wol7|Number=Sing|PronType=Dem	2	nsubj	2:nsubj	_
+2	doon	doon	VERB	COP	Mood=Ind|VerbForm=Fin	0	root	0:root	_
+3	na	na	AUX	INFL	Aspect=Perf|Mood=Ind|Number=Sing|Person=3	2	aux	2:aux	_
 4-5	luy	_	_	_	_	_	_	_	_
-4	lu	bu	PRON	PRON	NounClass=Wol7|Number=Sing|Person=3|PronType=Rel	0	root	0:root	_
+4	lu	bu	PRON	PRON	NounClass=Wol7|Number=Sing|Person=3|PronType=Rel	2	xcomp	2:xcomp	_
 5	di	di	AUX	AUX	Aspect=Imp|Mood=Ind|Tense=Pres	6	aux	6:aux	_
 6	yokk	yokk	VERB	VERB	Mood=Ind|VerbForm=Fin	4	acl:relcl	4:acl:relcl	_
 7	xereñug	xereñ	NOUN	NOUN	Case=Gen|Number=Sing	6	obj	6:obj	_
 8	askan	askan	NOUN	NOUN	_	7	nmod	7:nmod	_
 9	wi	bi	DET	DET	Definite=Def|Deixis=Prox|NounClass=Wol10|Number=Sing|PronType=Art	8	det	8:det	SpaceAfter=No
-10	.	.	PUNCT	PERIOD	_	4	punct	4:punct	_
+10	.	.	PUNCT	PERIOD	_	2	punct	2:punct	_
 
 # sent_id = wo_wtb-ud-train_1681
 # text = Dina yokk ay junniy junniy liggéey ñeel ndongo-daara yi ñu tàggat te amuñu fu ñu leen dugal, ñoñ fànn ñi (ci tekkig film yi ci sunu ay làkk).
@@ -4079,9 +4079,9 @@
 2	dolli	dolli	VERB	VERB	Mood=Ind|VerbForm=Fin	0	root	0:root	_
 3	ca	ca	ADP	PREP	_	2	obl	2:obl	_
 4	ne	ne	VERB	VERB	VerbForm=Inf	2	compound:svc	2:compound:svc	_
-5	bu	bu	SCONJ	COMP	_	7	mark	7:mark	_
-6	doonoon	doon	AUX	COP	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	7:cop	_
-7	lu	bu	PRON	PRON	NounClass=Wol7|Number=Sing|Person=3|PronType=Rel	13	advcl	13:advcl	_
+5	bu	bu	SCONJ	COMP	_	6	mark	6:mark	_
+6	doonoon	doon	VERB	COP	Mood=Ind|Tense=Past|VerbForm=Fin	13	advcl	13:advcl	_
+7	lu	bu	PRON	PRON	NounClass=Wol7|Number=Sing|Person=3|PronType=Rel	6	xcomp	6:xcomp	_
 8	ñu	mu	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	9:nsubj	_
 9	sàkk	sakk	VERB	VERB	Mood=Ind|VerbForm=Fin	7	acl:relcl	7:acl:relcl	SpaceAfter=No
 10	,	,	PUNCT	COMMA	_	13	punct	13:punct	_
@@ -5097,21 +5097,21 @@
 1	Ci	ci	ADP	PREP	_	4	case	4:case	_
 2	digg	digg	NOUN	NOUN	_	1	fixed	1:fixed	_
 3	ñaar-fukkeelu	ñaar-fukk	NUM	NUMBER	NumType=Ord	4	nummod	4:nummod	_
-4	xarnu	xarnu	NOUN	NOUN	_	10	obl	10:obl	_
-5	Hoyle	Hoyle	PROPN	NAME	_	10	nsubj	10:nsubj	_
-6	daldi	daldi	ADV	ADV	_	10	advmod	10:advmod	_
+4	xarnu	xarnu	NOUN	NOUN	_	9	obl	9:obl	_
+5	Hoyle	Hoyle	PROPN	NAME	_	9	nsubj	9:nsubj	_
+6	daldi	daldi	ADV	ADV	_	9	advmod	9:advmod	_
 7-8	nay	_	_	_	_	_	_	_	_
-7	na	na	AUX	INFL	Mood=Ind|Number=Sing|Person=3	10	aux	10:aux	_
-8	di	di	AUX	AUX	Aspect=Imp|Mood=Ind|Tense=Pres	10	aux	10:aux	_
-9	doon	doon	AUX	COP	Mood=Ind|VerbForm=Fin	10	cop	10:cop	_
-10	farandoob	farandoo	NOUN	NOUN	Case=Gen|Number=Sing	0	root	0:root	_
+7	na	na	AUX	INFL	Mood=Ind|Number=Sing|Person=3	9	aux	9:aux	_
+8	di	di	AUX	AUX	Aspect=Imp|Mood=Ind|Tense=Pres	9	aux	9:aux	_
+9	doon	doon	VERB	COP	Mood=Ind|VerbForm=Fin	0	root	0:root	_
+10	farandoob	farandoo	NOUN	NOUN	Case=Gen|Number=Sing	9	xcomp	9:xcomp	_
 11	gisiin	gisiin	NOUN	NOUN	_	10	nmod	10:nmod	_
 12	wu	wu	ADP	PREP	NounClass=Wol10|Number=Sing|Person=3	13	case	13:case	_
 13	melokaan	melokaan	NOUN	NOUN	_	11	nmod	11:nmod	_
 14	wu	bu	PRON	PRON	NounClass=Wol10|Number=Sing|Person=3|PronType=Rel	15	nsubj	15:nsubj	_
 15	sax	sax	VERB	VERB	Mood=Ind|VerbForm=Fin	13	acl:relcl	13:acl:relcl	_
 16	wi	bi	DET	DET	Definite=Def|Deixis=Prox|NounClass=Wol10|Number=Sing|PronType=Art	13	det	13:det	SpaceAfter=No
-17	.	.	PUNCT	PERIOD	_	10	punct	10:punct	_
+17	.	.	PUNCT	PERIOD	_	9	punct	9:punct	_
 
 # sent_id = wo_wtb-ud-train_1751
 # text = Woowu gisiin dafa niroo woon ak wa fi nekkoon ca fukk ak juróom ñeenteelu xarnu, te di woon àdduna bu tekkaaral bi.
@@ -5180,7 +5180,7 @@
 10	gu	bu	PRON	PRON	NounClass=Wol3|Number=Sing|Person=3|PronType=Rel	11	nsubj	11:nsubj	_
 11	feeñ	feeñ	VERB	VERB	Mood=Ind|VerbForm=Fin	9	acl:relcl	9:acl:relcl	_
 12	gu	bu	PRON	PRON	NounClass=Wol3|Number=Sing|Person=3|PronType=Rel	14	nsubj	14:nsubj	_
-13	dul	dul	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	14	aux	14:aux	_
+13	dul	di	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	14	aux	14:aux	_
 14	dëgëral	dëgër	VERB	VERB	Mood=Ind|VerbForm=Fin	9	acl:relcl	9:acl:relcl	_
 15	xeltug	xeltu	NOUN	NOUN	_	14	obj	14:obj	_
 16	ngérum	ngér	NOUN	NOUN	Case=Gen|Number=Sing	15	nmod	15:nmod	_
@@ -5216,7 +5216,7 @@
 7	wi	bi	DET	DET	Definite=Def|Deixis=Prox|NounClass=Wol10|Number=Sing|PronType=Art	4	det	4:det	_
 8	yàgg	yàgg	VERB	VERB	Mood=Ind|VerbForm=Fin	0	root	0:root	_
 9-10	nañoo	_	_	_	_	_	_	_	_
-9	nañu	nañu	AUX	INFL	FocusType=Verb|Mood=Ind|Number=Plur|Person=3	8	aux	8:aux	_
+9	nañu	na	AUX	INFL	FocusType=Verb|Mood=Ind|Number=Plur|Person=3	8	aux	8:aux	_
 10	a	a	PART	PART	_	11	mark	11:mark	_
 11	lànk	lànk	VERB	VERB	VerbForm=Inf	8	xcomp	8:xcomp	_
 12	Big	Big	PROPN	NAME	_	11	obj	11:obj	_
@@ -6908,7 +6908,7 @@
 29	ak	ak	CCONJ	CONJ	_	30	cc	30:cc	_
 30	hikma	hikma	NOUN	NOUN	_	26	conj	26:conj	_
 31	ju	bu	PRON	PRON	NounClass=Wol4|Number=Sing|Person=3|PronType=Rel	33	nsubj	33:nsubj	_
-32	dul	dul	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	33	aux	33:aux	_
+32	dul	di	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	33	aux	33:aux	_
 33	jeex	jeex	VERB	VERB	Mood=Ind|VerbForm=Fin	26	acl:relcl	26:acl:relcl	SpaceAfter=No
 34	.	.	PUNCT	PERIOD	_	14	punct	14:punct	_
 
@@ -9566,8 +9566,8 @@
 3	Ba	Ba	PROPN	NAME	_	2	flat	2:flat	SpaceAfter=No
 4	,	,	PUNCT	COMMA	_	9	punct	9:punct	_
 5	mu	mu	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	9:nsubj	_
-6	ngi	ngi	AUX	AUX	Aspect=Prog	9	aux	9:aux	_
-7	woon	woon	AUX	COP	Tense=Past	9	cop	9:cop	_
+6	ngi	ngi	AUX	COP	Aspect=Prog	9	cop	9:cop	_
+7	woon	woon	AUX	CL	Tense=Past	9	aux	9:aux	_
 8	ca	ca	ADP	PREP	_	9	case	9:case	_
 9	jawriñ	jawriñ	NOUN	NOUN	_	0	root	0:root	_
 10	ji	bi	PRON	PRON	Definite=Def|Deixis=Prox|NounClass=Wol4|Number=Sing|Person=3|PronType=Rel	12	obj	12:obj	_
@@ -9619,8 +9619,8 @@
 4	woon	woon	AUX	CL	Tense=Past	2	aux	2:aux	SpaceAfter=No
 5	,	,	PUNCT	COMMA	_	10	punct	10:punct	_
 6	maa	maa	PRON	PRON	Number=Sing|Person=1|PronType=Prs	10	nsubj	10:nsubj	_
-7	ngi	ngi	AUX	AUX	Aspect=Prog	10	aux	10:aux	_
-8	woon	woon	AUX	COP	Tense=Past	10	cop	10:cop	_
+7	ngi	ngi	AUX	COP	Aspect=Prog	10	cop	10:cop	_
+8	woon	woon	AUX	CL	Tense=Past	10	aux	10:aux	_
 9	«	«	PUNCT	QUOTE	_	10	punct	10:punct	SpaceAfter=No
 10	Marin	Marin	PROPN	NAME	_	2	parataxis	2:parataxis	SpaceAfter=No
 11	»	»	PUNCT	QUOTE	_	10	punct	10:punct	SpaceAfter=No
@@ -11017,8 +11017,8 @@
 14	seen	seen	DET	DET	Number=Sing|Person=2,3|Poss=Yes|PronType=Prs	16	det	16:det	_
 15	i	ab	DET	DET	Definite=Ind|NounClass=Wol8|Number=Plur|PronType=Art	16	det	16:det	_
 16	maas	maas	NOUN	NOUN	_	20	nsubj	20:nsubj	_
-17	a	a	AUX	COP	PronType=Prs	20	cop	20:cop	_
-18	nga	nga	AUX	AUX	Aspect=Prog|Mood=Ind	20	aux	20:aux	_
+17	a	a	AUX	AUX	PronType=Prs	20	aux	20:aux	_
+18	nga	ngi	AUX	COP	Aspect=Prog|Mood=Ind	20	cop	20:cop	_
 19	"	"	PUNCT	QUOTE	_	20	punct	20:punct	SpaceAfter=No
 20	La	La	PROPN	NAME	_	8	advcl	8:advcl	_
 21	Haye	Haye	PROPN	NAME	_	20	flat	20:flat	SpaceAfter=No

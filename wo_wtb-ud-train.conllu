@@ -2,16 +2,16 @@
 # sent_id = wo_wtb-ud-train_24
 # text = Ci wàllu xay Kajoor moo doonoon seetub Senegaal.
 1	Ci	ci	ADP	PREP	_	2	case	2:case	_
-2	wàllu	wàll	NOUN	NOUN	Case=Gen|Number=Sing	8	obl	8:obl	_
+2	wàllu	wàll	NOUN	NOUN	Case=Gen|Number=Sing	7	obl	7:obl	_
 3	xay	xay	NOUN	NOUN	_	2	nmod	2:nmod	_
-4	Kajoor	Kajoor	PROPN	NAME	_	8	dislocated	8:dislocated	_
+4	Kajoor	Kajoor	PROPN	NAME	_	7	dislocated	7:dislocated	_
 5-6	moo	_	_	_	_	_	_	_	_
-5	mu	mu	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj	_
-6	a	a	AUX	INFL	FocusType=Subj|Mood=Ind	8	aux	8:aux	_
-7	doonoon	doon	AUX	COP	Mood=Ind|Tense=Past|VerbForm=Fin	8	cop	8:cop	_
-8	seetub	seetu	NOUN	NOUN	Case=Gen|Number=Sing	0	root	0:root	_
+5	mu	mu	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	7:nsubj	_
+6	a	a	AUX	INFL	FocusType=Subj|Mood=Ind	7	aux	7:aux	_
+7	doonoon	doon	VERB	COP	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
+8	seetub	seetu	NOUN	NOUN	Case=Gen|Number=Sing	7	xcomp	7:xcomp	_
 9	Senegaal	Senegaal	PROPN	NAME	_	8	nmod	8:nmod	SpaceAfter=No
-10	.	.	PUNCT	PERIOD	_	8	punct	8:punct	_
+10	.	.	PUNCT	PERIOD	_	7	punct	7:punct	_
 
 # sent_id = wo_wtb-ud-train_25
 # text = Dammeel moo nekkoon ca kaw di seddale ay ndomboy tànk.
@@ -79,14 +79,14 @@
 
 # sent_id = wo_wtb-ud-train_29
 # text = Ñu doonoon ay lamaan te sant JAAÑ.
-1	Ñu	mu	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	4:nsubj	_
-2	doonoon	doon	AUX	COP	Mood=Ind|Tense=Past|VerbForm=Fin	4	cop	4:cop	_
+1	Ñu	mu	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj	_
+2	doonoon	doon	VERB	COP	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
 3	ay	ab	DET	DET	Definite=Ind|NounClass=Wol8|Number=Plur|PronType=Art	4	det	4:det	_
-4	lamaan	lamaan	NOUN	NOUN	_	0	root	0:root	_
+4	lamaan	lamaan	NOUN	NOUN	_	2	xcomp	2:xcomp	_
 5	te	te	CCONJ	CONJ	_	6	cc	6:cc	_
-6	sant	sant	VERB	VERB	Mood=Ind|VerbForm=Fin	4	conj	4:conj	_
+6	sant	sant	VERB	VERB	Mood=Ind|VerbForm=Fin	2	conj	2:conj	_
 7	JAAÑ	JAAÑ	PROPN	NAME	_	6	obj	6:obj	SpaceAfter=No
-8	.	.	PUNCT	PERIOD	_	4	punct	4:punct	_
+8	.	.	PUNCT	PERIOD	_	2	punct	2:punct	_
 
 # sent_id = wo_wtb-ud-train_30
 # text = Ba pare, xeetu Wagadu ak Jafunu, soqi ci Sooninké yi, jóge ca penku.
@@ -344,9 +344,9 @@
 2	mu	mu	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	_
 3	a	a	AUX	INFL	FocusType=Subj|Mood=Ind	4	aux	4:aux	_
 4	tax	tax	VERB	VERB	Mood=Ind|VerbForm=Fin	0	root	0:root	_
-5	Amari	Amari	PROPN	NAME	_	7	nsubj	7:nsubj	_
-6	doonoon	doon	AUX	COP	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	7:cop	_
-7	ku	bu	PRON	PRON	NounClass=Wol1|Number=Sing|Person=3|PronType=Rel	4	ccomp	4:ccomp	_
+5	Amari	Amari	PROPN	NAME	_	6	nsubj	6:nsubj	_
+6	doonoon	doon	VERB	COP	Mood=Ind|Tense=Past|VerbForm=Fin	4	ccomp	4:ccomp	_
+7	ku	bu	PRON	PRON	NounClass=Wol1|Number=Sing|Person=3|PronType=Rel	6	xcomp	6:xcomp	_
 8	jëkk	jëkk	VERB	VERB	Mood=Ind|VerbForm=Fin	7	acl:relcl	7:acl:relcl	_
 9	a	a	PART	PART	_	10	mark	10:mark	_
 10	nekk	nekk	VERB	VERB	VerbForm=Inf	8	xcomp	8:xcomp	_
@@ -421,22 +421,22 @@
 # sent_id = wo_wtb-ud-train_47
 # text = Ci lu jiitu ñëwug tubaab yi, Kajoor doonoon na nguur gu ay am-amam newoon gàññ.
 1	Ci	ci	ADP	PREP	_	2	case	2:case	_
-2	lu	bu	PRON	PRON	NounClass=Wol7|Number=Sing|Person=3|PronType=Rel	11	obl	11:obl	_
+2	lu	bu	PRON	PRON	NounClass=Wol7|Number=Sing|Person=3|PronType=Rel	9	obl	9:obl	_
 3	jiitu	jiitu	VERB	VERB	Mood=Ind|VerbForm=Fin	2	acl:relcl	2:acl:relcl	_
 4	ñëwug	ñëw	NOUN	NOUN	Case=Gen|Number=Sing	3	obj	3:obj	_
 5	tubaab	tubaab	NOUN	NOUN	_	4	nmod	4:nmod	_
 6	yi	bi	DET	DET	Definite=Def|Deixis=Prox|NounClass=Wol8|Number=Plur|PronType=Art	5	det	5:det	SpaceAfter=No
 7	,	,	PUNCT	COMMA	_	3	punct	3:punct	_
-8	Kajoor	Kajoor	PROPN	NAME	_	11	nsubj	11:nsubj	_
-9	doonoon	doon	AUX	COP	Mood=Ind|Tense=Past|VerbForm=Fin	11	cop	11:cop	_
-10	na	na	AUX	INFL	Aspect=Perf|Mood=Ind|Number=Sing|Person=3	11	aux	11:aux	_
-11	nguur	nguur	NOUN	NOUN	_	0	root	0:root	_
+8	Kajoor	Kajoor	PROPN	NAME	_	9	nsubj	9:nsubj	_
+9	doonoon	doon	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
+10	na	na	AUX	INFL	Aspect=Perf|Mood=Ind|Number=Sing|Person=3	9	aux	9:aux	_
+11	nguur	nguur	NOUN	NOUN	_	9	xcomp	9:xcomp	_
 12	gu	bu	PRON	PRON	NounClass=Wol3|Number=Sing|PronType=Rel	14	nmod	14:nmod	_
 13	ay	ab	DET	DET	Definite=Ind|NounClass=Wol8|Number=Plur|PronType=Art	14	det	14:det	_
 14	am-amam	am-am	NOUN	NOUN	Number=Sing|Poss=Yes	15	nsubj	15:nsubj	_
 15	newoon	ne	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin	11	acl:relcl	11:acl:relcl	_
 16	gàññ	gàññ	PART	PART	_	15	compound:prt	15:compound:prt	SpaceAfter=No
-17	.	.	PUNCT	PERIOD	_	11	punct	11:punct	_
+17	.	.	PUNCT	PERIOD	_	9	punct	9:punct	_
 
 # sent_id = wo_wtb-ud-train_48
 # text = Mbay ak liggéey ci loxo ak càmm ak napp ak njaay ñoo nekkoon fànni liggéey yi ëppoon solo ca nguur ga.
@@ -467,18 +467,18 @@
 
 # sent_id = wo_wtb-ud-train_49
 # text = Mbay moo doonoon liggéey bi ëppoon solo ci koom-koomam.
-1	Mbay	mbay	NOUN	NOUN	_	5	dislocated	5:dislocated	_
+1	Mbay	mbay	NOUN	NOUN	_	4	dislocated	4:dislocated	_
 2-3	moo	_	_	_	_	_	_	_	_
-2	mu	mu	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	_
-3	a	a	AUX	INFL	FocusType=Subj|Mood=Ind	5	aux	5:aux	_
-4	doonoon	doon	AUX	COP	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
-5	liggéey	liggéey	NOUN	NOUN	_	0	root	0:root	_
+2	mu	mu	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	_
+3	a	a	AUX	INFL	FocusType=Subj|Mood=Ind	4	aux	4:aux	_
+4	doonoon	doon	VERB	COP	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
+5	liggéey	liggéey	NOUN	NOUN	_	4	xcomp	4:xcomp	_
 6	bi	bi	PRON	PRON	Definite=Def|Deixis=Prox|NounClass=Wol5|Number=Sing|Person=3|PronType=Rel	7	nsubj	7:nsubj	_
 7	ëppoon	ëpp	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	5:acl:relcl	_
 8	solo	solo	NOUN	NOUN	_	7	obj	7:obj	_
 9	ci	ci	ADP	PREP	_	10	case	10:case	_
 10	koom-koomam	koom-koom	NOUN	NOUN	Number=Sing|Poss=Yes	7	obl	7:obl	SpaceAfter=No
-11	.	.	PUNCT	PERIOD	_	5	punct	5:punct	_
+11	.	.	PUNCT	PERIOD	_	4	punct	4:punct	_
 
 # sent_id = wo_wtb-ud-train_50
 # text = Looloo taxoon ba su baykat yi amul woon jàmm doon na feeñ ca koom ga.
@@ -1103,14 +1103,14 @@
 # text = Loolu terewul nguur gi nekk ndono ci kaw bu amee ku ko war a donn.
 1	Loolu	boobu	PRON	PRON	Deixis=Prox|DeixisRef=2|NounClass=Wol7|Number=Sing|PronType=Dem	2	nsubj	2:nsubj	_
 2	terewul	tere	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	0	root	0:root	_
-3	nguur	nguur	NOUN	NOUN	_	6	nsubj	6:nsubj	_
+3	nguur	nguur	NOUN	NOUN	_	5	nsubj	5:nsubj	_
 4	gi	bi	DET	DET	Definite=Def|Deixis=Prox|NounClass=Wol3|Number=Sing|PronType=Art	3	det	3:det	_
-5	nekk	nekk	AUX	COP	Mood=Ind|VerbForm=Fin	6	cop	6:cop	_
-6	ndono	ndono	NOUN	NOUN	_	2	ccomp	2:ccomp	_
+5	nekk	nekk	VERB	COP	Mood=Ind|VerbForm=Fin	2	ccomp	2:ccomp	_
+6	ndono	ndono	NOUN	NOUN	_	5	xcomp	5:xcomp	_
 7	ci	ci	ADP	PREP	_	10	advmod	10:advmod	_
 8	kaw	kaw	NOUN	NOUN	_	7	fixed	7:fixed	_
 9	bu	bu	SCONJ	COMP	_	10	mark	10:mark	_
-10	amee	am	VERB	VERB	Aspect=Perf|Mood=Ind|VerbForm=Fin	6	advcl	6:advcl	_
+10	amee	am	VERB	VERB	Aspect=Perf|Mood=Ind|VerbForm=Fin	5	advcl	5:advcl	_
 11	ku	bu	PRON	PRON	NounClass=Wol1|Number=Sing|Person=3|PronType=Rel	10	obj	10:obj	_
 12	ko	ko	PRON	CL	Case=Acc|Number=Sing|Person=3|PronType=Prs	13	obj	13:obj	_
 13	war	war	VERB	VERB	Mood=Ind|VerbForm=Fin	11	acl:relcl	11:acl:relcl	_
@@ -1120,11 +1120,11 @@
 
 # sent_id = wo_wtb-ud-train_85
 # text = Kajoor nekkoon na juróomi tund: Gànjóol, Njaambur ci bëj-gànnaar, Ndéet ca penku, Sañaxoor ca digg Kajoor, Jandeer ca diggante sowwu ak bëj-saalum.
-1	Kajoor	Kajoor	PROPN	NAME	_	5	nsubj	5:nsubj	_
-2	nekkoon	nekk	AUX	COP	Mood=Ind|Tense=Past|VerbForm=Fin	5	cop	5:cop	_
-3	na	na	AUX	INFL	Aspect=Perf|Mood=Ind|Number=Sing|Person=3	5	aux	5:aux	_
+1	Kajoor	Kajoor	PROPN	NAME	_	2	nsubj	2:nsubj	_
+2	nekkoon	nekk	VERB	COP	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	na	na	AUX	INFL	Aspect=Perf|Mood=Ind|Number=Sing|Person=3	2	aux	2:aux	_
 4	juróomi	juróom	NUM	NUMBER	NumType=Card	5	nummod	5:nummod	_
-5	tund	tund	NOUN	NOUN	_	0	root	0:root	SpaceAfter=No
+5	tund	tund	NOUN	NOUN	_	2	xcomp	2:xcomp	SpaceAfter=No
 6	:	:	PUNCT	COLON	_	7	punct	7:punct	_
 7	Gànjóol	Gànjóol	PROPN	NAME	_	5	appos	5:appos	SpaceAfter=No
 8	,	,	PUNCT	COMMA	_	9	punct	9:punct	_
@@ -1147,7 +1147,7 @@
 25	sowwu	sowwu	NOUN	NOUN	_	22	nmod	22:nmod	_
 26	ak	ak	CCONJ	CONJ	_	27	cc	27:cc	_
 27	bëj-saalum	bëj-saalum	NOUN	NOUN	_	25	conj	25:conj	SpaceAfter=No
-28	.	.	PUNCT	PERIOD	_	5	punct	5:punct	_
+28	.	.	PUNCT	PERIOD	_	2	punct	2:punct	_
 
 # sent_id = wo_wtb-ud-train_86
 # text = Su ñu falee Dammeel dafa war a séddale ndomboy tànk yu mag ya ba ku nekk xam fu nga féete.
@@ -2877,10 +2877,10 @@
 6	ndombo-tànk	ndombo-tànk	NOUN	NOUN	_	4	obj	4:obj	_
 7-8	waruñoo	_	_	_	_	_	_	_	_
 7	waruñu	war	VERB	VERB	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin	0	root	0:root	_
-8	a	a	PART	PART	_	11	mark	11:mark	_
-9	doon	doon	AUX	COP	VerbForm=Inf	11	cop	11:cop	_
+8	a	a	PART	PART	_	9	mark	9:mark	_
+9	doon	doon	VERB	COP	VerbForm=Inf	7	xcomp	7:xcomp	_
 10	ay	ab	DET	DET	Definite=Ind|NounClass=Wol8|Number=Plur|PronType=Art	11	det	11:det	_
-11	xeet	xeet	NOUN	NOUN	_	7	xcomp	7:xcomp	_
+11	xeet	xeet	NOUN	NOUN	_	9	xcomp	9:xcomp	_
 12	(	(	PUNCT	PAREN	_	14	punct	14:punct	SpaceAfter=No
 13	maanaam	maanaam	CCONJ	CONJ	_	14	cc	14:cc	_
 14	ñu	bu	PRON	PRON	NounClass=Wol2|Number=Plur|Person=3|PronType=Rel	11	appos	11:appos	_
@@ -3035,7 +3035,7 @@
 # sent_id = wo_wtb-ud-train_247
 # text = Moo nga tàmbalee woon ca peggu Sudaan jëm ca géej gu diggu ca bëj-gànnaaram.
 1	Moo	moo	PRON	PRON	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
-2	nga	nga	AUX	AUX	Aspect=Prog	3	aux	_	_
+2	nga	ngi	AUX	AUX	Aspect=Prog	3	aux	_	_
 3	tàmbalee	tàmbali	VERB	VERB	Aspect=Perf|Mood=Ind|VerbForm=Fin	0	root	_	_
 4	woon	woon	AUX	CL	Tense=Past	3	aux	_	_
 5	ca	ca	ADP	PREP	_	6	case	_	_
@@ -3660,16 +3660,16 @@
 
 # sent_id = wo_wtb-ud-train_277
 # text = Isipt gu yàgg ga dafa nekkoon guy boroomug xay gu kawe gu dimbalee ci amal ay wuññi yu am solo ci wàllug xam-xamu xayma, ak xam-xamu falag (fidiw).
-1	Isipt	Isipt	PROPN	NAME	_	8	dislocated	8:dislocated	_
+1	Isipt	Isipt	PROPN	NAME	_	7	dislocated	7:dislocated	_
 2	gu	bu	PRON	PRON	NounClass=Wol3|Number=Sing|Person=3|PronType=Rel	3	nsubj	3:nsubj	_
 3	yàgg	yàgg	VERB	VERB	Mood=Ind|VerbForm=Fin	1	acl:relcl	1:acl:relcl	_
 4	ga	bi	DET	DET	Definite=Def|Deixis=Remt|NounClass=Wol3|Number=Sing|PronType=Art	1	det	1:det	_
 5-6	dafa	_	_	_	_	_	_	_	_
-5	da	da	AUX	INFL	FocusType=Verb|Mood=Ind	8	aux	8:aux	_
-6	mu	mu	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj	_
-7	nekkoon	nekk	AUX	COP	Mood=Ind|Tense=Past|VerbForm=Fin	8	cop	8:cop	_
+5	da	da	AUX	INFL	FocusType=Verb|Mood=Ind	7	aux	7:aux	_
+6	mu	mu	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	7	nsubj	7:nsubj	_
+7	nekkoon	nekk	VERB	COP	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
 8-9	guy	_	_	_	_	_	_	_	_
-8	gu	bu	PRON	PRON	NounClass=Wol3|Number=Sing|Person=3|PronType=Rel	0	root	0:root	_
+8	gu	bu	PRON	PRON	NounClass=Wol3|Number=Sing|Person=3|PronType=Rel	7	xcomp	7:xcomp	_
 9	di	di	AUX	COP	Aspect=Imp|Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	10:cop	_
 10	boroomug	boroom	NOUN	NOUN	Case=Gen|Number=Sing	8	acl:relcl	8:acl:relcl	_
 11	xay	xay	NOUN	NOUN	_	10	nmod	10:nmod	_
@@ -3695,7 +3695,7 @@
 31	(	(	PUNCT	PAREN	_	32	punct	32:punct	SpaceAfter=No
 32	fidiw	fidiw	NOUN	NOUN	_	30	appos	30:appos	SpaceAfter=No
 33	)	)	PUNCT	PAREN	_	32	punct	32:punct	SpaceAfter=No
-34	.	.	PUNCT	PERIOD	_	8	punct	8:punct	_
+34	.	.	PUNCT	PERIOD	_	7	punct	7:punct	_
 
 # sent_id = wo_wtb-ud-train_278
 # text = Fànnu Isipt bokk na ci fànn yi gën a rafet ci yu yàgg ya.
@@ -3970,9 +3970,9 @@
 
 # sent_id = wo_wtb-ud-train_291
 # text = Mu nekkoon gi tegoon loxo nguur yu ndaw yi nekkoon ci bëj-gànnaaru Gambi.
-1	Mu	mu	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	_
-2	nekkoon	nekk	AUX	COP	Mood=Ind|Tense=Past|VerbForm=Fin	3	cop	3:cop	_
-3	gi	bi	PRON	PRON	Definite=Def|Deixis=Prox|NounClass=Wol3|Number=Sing|Person=3|PronType=Rel	0	root	0:root	_
+1	Mu	mu	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	_
+2	nekkoon	nekk	VERB	COP	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
+3	gi	bi	PRON	PRON	Definite=Def|Deixis=Prox|NounClass=Wol3|Number=Sing|Person=3|PronType=Rel	2	xcomp	2:xcomp	_
 4	tegoon	teg	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin	3	acl:relcl	3:acl:relcl	_
 5	loxo	loxo	NOUN	NOUN	_	4	compound:prt	4:compound:prt	_
 6	nguur	nguur	NOUN	NOUN	_	4	obj	4:obj	_
@@ -3983,7 +3983,7 @@
 11	ci	ci	ADP	PREP	_	12	case	12:case	_
 12	bëj-gànnaaru	bëj-gànnaar	NOUN	NOUN	Case=Gen|Number=Sing	10	obl	10:obl	_
 13	Gambi	Gambi	PROPN	NAME	_	12	nmod	12:nmod	SpaceAfter=No
-14	.	.	PUNCT	PERIOD	_	3	punct	3:punct	_
+14	.	.	PUNCT	PERIOD	_	2	punct	2:punct	_
 
 # sent_id = wo_wtb-ud-train_292
 # text = Yooyu ñooy: Kantora, Gimaara, Jaara, Kiyaŋ ak Kombo.
@@ -7890,7 +7890,7 @@
 1	Waaye	waaye	CCONJ	CONJ	_	12	cc	12:cc	_
 2	nag	nag	ADV	ADV	_	12	advmod	12:advmod	_
 3	bu	bu	SCONJ	COMP	_	5	mark	5:mark	_
-4	dee	dee	AUX	COP	Aspect=Imp|Mood=Ind|VerbForm=Fin	5	cop	5:cop	_
+4	dee	di	AUX	COP	Aspect=Imp|Mood=Ind|VerbForm=Fin	5	cop	5:cop	_
 5	bisu	bis	NOUN	NOUN	Case=Gen|Number=Sing	12	advcl	12:advcl	_
 6	Täbaski	Täbaski	PROPN	NAME	_	5	nmod	5:nmod	_
 7	sunna	sunna	NOUN	NOUN	_	12	nsubj	12:nsubj	_
@@ -9379,7 +9379,7 @@
 7	def	def	VERB	VERB	Mood=Ind|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 8	,	,	PUNCT	COMMA	_	11	punct	11:punct	_
 9	te	te	CCONJ	CONJ	_	11	cc	11:cc	_
-10	doon	doon	AUX	COP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	11:cop	_
+10	doon	di	AUX	COP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	11:cop	_
 11	ku	bu	PRON	PRON	NounClass=Wol1|Number=Sing|Person=3|PronType=Rel	7	conj	7:conj	_
 12	am	am	VERB	VERB	Mood=Ind|VerbForm=Fin	11	acl:relcl	11:acl:relcl	_
 13	xel	xel	NOUN	NOUN	_	12	obj	12:obj	SpaceAfter=No
@@ -11266,7 +11266,7 @@
 5	am	am	VERB	VERB	Mood=Ind|VerbForm=Fin	4	acl:relcl	4:acl:relcl	_
 6	lu	bu	PRON	PRON	NounClass=Wol7|Number=Sing|Person=3|PronType=Rel	9	obj	9:obj	_
 7	kenn	benn	PRON	PRON	NounClass=Wol1|Number=Sing|PronType=Ind,Neg	9	nsubj	9:nsubj	_
-8	dul	dul	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	9	aux	9:aux	_
+8	dul	di	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	9	aux	9:aux	_
 9	sikk	sikk	VERB	VERB	Mood=Ind|VerbForm=Fin	4	acl:relcl	4:acl:relcl	SpaceAfter=No
 10	.	.	PUNCT	PERIOD	_	4	punct	4:punct	_
 
@@ -11972,16 +11972,16 @@
 
 # sent_id = wo_wtb-ud-train_2024
 # text = Lu ko moy mu doonati moom ci jëmmi boppam jaasi ju ñu bocci ci kanamu diine yi.
-1	Lu	lu	ADV	ADV	_	10	advmod	10:advmod	_
+1	Lu	lu	ADV	ADV	_	5	advmod	5:advmod	_
 2	ko	ko	PRON	CL	Number=Sing|Person=3|PronType=Prs	1	fixed	1:fixed	_
 3	moy	moy	VERB	VERB	Mood=Ind|VerbForm=Fin	1	fixed	1:fixed	_
-4	mu	mu	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	10:nsubj	_
-5	doonati	doonati	AUX	COP	Mood=Ind|VerbForm=Fin	10	cop	10:cop	_
-6	moom	moom	PRON	PRON	Number=Sing|Person=3|PronType=Prs	10	dislocated	10:dislocated	_
+4	mu	mu	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	_
+5	doonati	doon	VERB	COP	Mood=Ind|VerbForm=Fin	0	root	0:root	_
+6	moom	moom	PRON	PRON	Number=Sing|Person=3|PronType=Prs	5	dislocated	5:dislocated	_
 7	ci	ci	ADP	PREP	_	8	case	8:case	_
 8	jëmmi	jëmm	NOUN	NOUN	Case=Gen|Number=Plur	6	nmod	6:nmod	_
 9	boppam	bopp	PRON	PRON	Number=Sing|Person=3|PronType=Prs|Reflex=Yes	8	nmod	8:nmod	_
-10	jaasi	jaasi	NOUN	NOUN	_	0	root	0:root	_
+10	jaasi	jaasi	NOUN	NOUN	_	5	xcomp	5:xcomp	_
 11	ju	bu	PRON	PRON	NounClass=Wol4|Number=Sing|Person=3|PronType=Rel	13	obj	13:obj	_
 12	ñu	mu	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	13:nsubj	_
 13	bocci	bocci	VERB	VERB	Mood=Ind|VerbForm=Fin	10	acl:relcl	10:acl:relcl	_
@@ -11989,7 +11989,7 @@
 15	kanamu	kanam	NOUN	NOUN	Case=Gen|Number=Sing	13	obl	13:obl	_
 16	diine	diine	NOUN	NOUN	_	15	nmod	15:nmod	_
 17	yi	bi	DET	DET	Definite=Def|Deixis=Prox|NounClass=Wol8|Number=Plur|PronType=Art	16	det	16:det	SpaceAfter=No
-18	.	.	PUNCT	PERIOD	_	10	punct	10:punct	_
+18	.	.	PUNCT	PERIOD	_	5	punct	5:punct	_
 
 # sent_id = wo_wtb-ud-train_2025
 # text = Lu am solo ñu war koo wax mooy ne su ñu bëggee ag jeqiku bañ a ami ëllëg ci réew mi na fi ag maandute dolliku.
@@ -15142,7 +15142,7 @@
 13	jóge	jóge	VERB	VERB	Mood=Ind|VerbForm=Fin	5	ccomp	5:ccomp	SpaceAfter=No
 14	,	,	PUNCT	COMMA	_	17	punct	17:punct	_
 15	mu	mu	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	17	nsubj	17:nsubj	_
-16	nga	nga	AUX	AUX	Aspect=Prog	17	aux	17:aux	_
+16	nga	ngi	AUX	AUX	Aspect=Prog	17	aux	17:aux	_
 17	sosoo	sosu	VERB	VERB	Mood=Ind|VerbForm=Fin	0	root	0:root	_
 18	ca	ca	ADP	PREP	_	19	case	19:case	_
 19	bindi	bind	NOUN	NOUN	Case=Gen|Number=Plur	17	obl:appl	17:obl:appl	_
@@ -15783,7 +15783,7 @@
 2	xale	xale	NOUN	NOUN	_	1	appos	1:appos	_
 3	yi	bi	DET	DET	Definite=Def|Deixis=Prox|NounClass=Wol8|Number=Plur|PronType=Art	2	det	2:det	SpaceAfter=No
 4	,	,	PUNCT	COMMA	_	7	punct	7:punct	_
-5	nangeen	nangeen	AUX	INFL	Mood=Opt|Number=Plur|Person=2	7	aux	7:aux	_
+5	nangeen	na	AUX	INFL	Mood=Opt|Number=Plur|Person=2	7	aux	7:aux	_
 6	ma	ko	PRON	CL	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	7:obj	_
 7	baal	baal	VERB	VERB	Mood=Opt|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 8	,	,	PUNCT	COMMA	_	17	punct	17:punct	_
@@ -15900,17 +15900,17 @@
 17	masoon	mas	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin	13	acl:relcl	13:acl:relcl	_
 18	a	a	PART	PART	_	17	mark	17:mark	_
 19	doon	di	AUX	COP	VerbForm=Inf	17	cop	17:cop	SpaceAfter=No
-20	,	,	PUNCT	COMMA	_	30	punct	30:punct	_
-21	ndax	ndax	SCONJ	COMP	_	30	mark	30:mark	_
-22	mag	mag	NOUN	NOUN	_	30	nsubj	30:nsubj	_
+20	,	,	PUNCT	COMMA	_	27	punct	27:punct	_
+21	ndax	ndax	SCONJ	COMP	_	27	mark	27:mark	_
+22	mag	mag	NOUN	NOUN	_	27	nsubj	27:nsubj	_
 23	ñi	bi	PRON	PRON	Definite=Def|Deixis=Prox|NounClass=Wol2|Number=Plur|Person=3|PronType=Rel	26	obj	26:obj	_
 24	ngeen	mu	PRON	PRON	Case=Nom|Number=Plur|Person=2|PronType=Prs	26	nsubj	26:nsubj	_
 25	di	di	AUX	AUX	Aspect=Imp|Mood=Ind|Tense=Pres	26	aux	26:aux	_
 26	gis	gis	VERB	VERB	Mood=Ind|VerbForm=Fin	22	acl:relcl	22:acl:relcl	_
-27	doonoon	doon	AUX	COP	Mood=Ind|Tense=Past|VerbForm=Fin	30	cop	30:cop	_
-28	nañu	na	AUX	INFL	Aspect=Perf|Mood=Ind|Number=Plur|Person=3	30	aux	30:aux	_
+27	doonoon	doon	VERB	COP	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	9:advcl	_
+28	nañu	na	AUX	INFL	Aspect=Perf|Mood=Ind|Number=Plur|Person=3	27	aux	27:aux	_
 29	ay	ab	DET	DET	Definite=Ind|NounClass=Wol8|Number=Plur|PronType=Art	30	det	30:det	_
-30	xale	xale	NOUN	NOUN	_	9	advcl	9:advcl	SpaceAfter=No
+30	xale	xale	NOUN	NOUN	_	27	xcomp	27:xcomp	SpaceAfter=No
 31	,	,	PUNCT	COMMA	_	38	punct	38:punct	_
 32	wante	wante	CCONJ	CONJ	_	38	cc	38:cc	_
 33	ñi	bi	PRON	PRON	Definite=Def|Deixis=Prox|NounClass=Wol2|Number=Plur|Person=3|PronType=Rel	38	nsubj	38:nsubj	_
@@ -15919,7 +15919,7 @@
 35	di	di	AUX	AUX	Aspect=Imp|Mood=Ind|Tense=Pres	36	aux	36:aux	_
 36	fàtteliku	fàtteliku	VERB	VERB	Mood=Ind|VerbForm=Fin	33	acl:relcl	33:acl:relcl	_
 37	loolu	boobu	PRON	PRON	Deixis=Prox|DeixisRef=2|NounClass=Wol7|Number=Sing|PronType=Dem	36	obj	36:obj	_
-38	ñu	bu	PRON	PRON	NounClass=Wol2|Number=Plur|Person=3|PronType=Rel	30	conj	30:conj	_
+38	ñu	bu	PRON	PRON	NounClass=Wol2|Number=Plur|Person=3|PronType=Rel	27	conj	27:conj	_
 39	neew	neew	VERB	VERB	Mood=Ind|VerbForm=Fin	38	acl:relcl	38:acl:relcl	_
 40	lañu	la	AUX	COP	Mood=Ind|Number=Sing|Person=3|VerbForm=Fin	38	cop	38:cop	SpaceAfter=No
 41	.	.	PUNCT	PERIOD	_	9	punct	9:punct	_
@@ -16492,7 +16492,7 @@
 1	Su	su	SCONJ	COMP	_	3	mark	3:mark	_
 2	ma	mu	PRON	PRON	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	_
 3	tase	tase	VERB	VERB	Mood=Ind|VerbForm=Fin	16	advcl	16:advcl	_
-4	waan	waan	AUX	CL	Aspect=Hab|Tense=Past	3	aux	3:aux	_
+4	waan	woon	AUX	CL	Aspect=Hab|Tense=Past	3	aux	3:aux	_
 5	ak	ak	ADP	PREP	_	6	case	6:case	_
 6	ku	bu	PRON	PRON	NounClass=Wol1|Number=Sing|Person=3|PronType=Rel	3	obl	3:obl	_
 7	ma	ko	PRON	CL	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obj	8:obj	_
@@ -18768,7 +18768,7 @@
 2	rikk	rikk	ADV	ADV	_	8	advmod	8:advmod	SpaceAfter=No
 3	,	,	PUNCT	COMMA	_	8	punct	8:punct	_
 4	loolu	boobu	PRON	PRON	Deixis=Prox|DeixisRef=2|NounClass=Wol7|Number=Sing|PronType=Dem	8	dislocated	8:dislocated	_
-5	nangeen	nangeen	AUX	INFL	Mood=Opt|Number=Plur|Person=2	8	aux	8:aux	_
+5	nangeen	na	AUX	INFL	Mood=Opt|Number=Plur|Person=2	8	aux	8:aux	_
 6	ma	ko	PRON	CL	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obj	8:obj	_
 7	ko	ko	PRON	CL	Case=Acc|Number=Sing|Person=3|PronType=Prs	8	iobj	8:iobj	_
 8	baal	baal	VERB	VERB	Mood=Opt|VerbForm=Fin	0	root	0:root	SpaceAfter=No
@@ -22603,12 +22603,12 @@
 
 # sent_id = wo_wtb-ud-train_1082
 # text = Fatumata Bensuudaa moomu doonoon na jawriñ ja yore mbiru yoon ak yemale ca réewam jóge fa bokk ci tiribinaal ba doon saytu mboomum xeet wa amoon Ruwaanda.
-1	Fatumata	Fatumata	PROPN	NAME	_	6	nsubj	6:nsubj	_
+1	Fatumata	Fatumata	PROPN	NAME	_	4	nsubj	4:nsubj	_
 2	Bensuudaa	Bensuudaa	PROPN	NAME	_	1	flat	1:flat	_
 3	moomu	boobu	DET	DET	Deixis=Prox|DeixisRef=2|NounClass=Wol6|Number=Sing|PronType=Dem	1	det	1:det	_
-4	doonoon	doon	AUX	COP	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	6:cop	_
-5	na	na	AUX	INFL	Aspect=Perf|Mood=Ind|Number=Sing|Person=3	6	aux	6:aux	_
-6	jawriñ	jawriñ	NOUN	NOUN	_	0	root	0:root	_
+4	doonoon	doon	VERB	COP	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	_
+5	na	na	AUX	INFL	Aspect=Perf|Mood=Ind|Number=Sing|Person=3	4	aux	4:aux	_
+6	jawriñ	jawriñ	NOUN	NOUN	_	4	xcomp	4:xcomp	_
 7	ja	ba	PRON	PRON	Definite=Def|Deixis=Remt|NounClass=Wol4|Number=Sing|Person=3|PronType=Rel	8	nsubj	8:nsubj	_
 8	yore	yore	VERB	VERB	Mood=Ind|VerbForm=Fin	6	acl:relcl	6:acl:relcl	_
 9	mbiru	mbir	NOUN	NOUN	Case=Gen|Number=Sing	8	obj	8:obj	_
@@ -22630,7 +22630,7 @@
 25	wa	ba	PRON	PRON	Definite=Def|Deixis=Remt|NounClass=Wol10|Number=Sing|Person=3|PronType=Rel	26	nsubj	26:nsubj	_
 26	amoon	am	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin	23	acl:relcl	23:acl:relcl	_
 27	Ruwaanda	Ruwaanda	PROPN	NAME	_	26	obl	26:obl	SpaceAfter=No
-28	.	.	PUNCT	PERIOD	_	6	punct	6:punct	_
+28	.	.	PUNCT	PERIOD	_	4	punct	4:punct	_
 
 # sent_id = wo_wtb-ud-train_1083
 # text = Mën nañu fee tudd ba léegi it soxna su mel ni Joyce Banda, di njiitu réewum Malawi, di ndaw su tàkku ngir suxali réewam, xeex gér ak yàq.
@@ -27183,9 +27183,9 @@
 7	ñu	mu	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	8:nsubj	_
 8	toftalantee	toftalante	VERB	VERB	Mood=Ind|VerbForm=Fin	1	conj	1:conj	SpaceAfter=No
 9	,	,	PUNCT	COMMA	_	15	punct	15:punct	_
-10	fu	fu	ADV	ADV	NounClass=Wol11|PronType=Rel	15	advcl	15:advcl	_
-11	mu	mu	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nsubj	10:nsubj	_
-12	ne	ne	AUX	COP	Mood=Ind|VerbForm=Fin	10	cop	10:cop	SpaceAfter=No
+10	fu	fu	ADV	ADV	NounClass=Wol11|PronType=Rel	12	advmod	12:advmod	_
+11	mu	mu	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	_
+12	ne	ne	VERB	VERB	Mood=Ind|VerbForm=Fin	15	advcl	15:advcl	SpaceAfter=No
 13	,	,	PUNCT	COMMA	_	15	punct	15:punct	_
 14	ñu	mu	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	15:nsubj	_
 15	fekk	fekk	VERB	VERB	Mood=Ind|VerbForm=Fin	0	root	0:root	_
