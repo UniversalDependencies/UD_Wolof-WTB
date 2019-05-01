@@ -16021,8 +16021,8 @@
 2	nataal	nataal	NOUN	NOUN	_	1	compound	1:compound	_
 3-4	baa	_	_	_	_	_	_	_	_
 3	ba	bi	DET	DET	Definite=Def|Deixis=Remt|NounClass=Wol5|Number=Sing|PronType=Art	1	det	1:det	_
-4	a	a	AUX	COP	PronType=Prs	6	cop	6:cop	_
-5	ngi	ngi	AUX	AUX	Aspect=Prog	6	aux	6:aux	_
+4	a	a	AUX	AUX	PronType=Prs	6	aux	6:aux	_
+5	ngi	ngi	AUX	COP	Aspect=Prog	6	cop	6:cop	_
 6	nii	nii	ADV	ADV	NounClass=Wol12|PronType=Dem	0	root	0:root	SpaceAfter=No
 7	:	:	PUNCT	COLON	_	6	punct	6:punct	_
 
@@ -26262,8 +26262,8 @@
 8	faral	faral	VERB	VERB	Mood=Ind|VerbForm=Fin	5	acl:relcl	5:acl:relcl	_
 9	a	a	PART	PART	_	10	mark	10:mark	_
 10	nemmiku	nemmiku	VERB	VERB	VerbForm=Inf	8	xcomp	8:xcomp	_
-11	a	a	AUX	COP	PronType=Prs	13	cop	13:cop	_
-12	ngi	ngi	AUX	AUX	Aspect=Prog	13	aux	13:aux	_
+11	a	a	AUX	AUX	PronType=Prs	13	aux	13:aux	_
+12	ngi	ngi	AUX	COP	Aspect=Prog	13	cop	13:cop	_
 13	nii	nii	ADV	ADV	NounClass=Wol12|PronType=Dem	0	root	0:root	SpaceAfter=No
 14	:	:	PUNCT	COLON	_	15	punct	15:punct	_
 15	saw	saw	NOUN	NOUN	_	13	appos	13:appos	_

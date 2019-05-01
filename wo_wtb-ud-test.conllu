@@ -715,7 +715,7 @@
 8	sottee	sotti	VERB	VERB	Mood=Ind|VerbForm=Fin	0	root	0:root	_
 9	ba	ba	ADP	PREP	_	10	mark	10:mark	_
 10	tax	tax	VERB	VERB	VerbForm=Inf	8	advcl	8:advcl	_
-11	doonuñu	doon	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg	13	aux	13:aux	_
+11	doonuñu	di	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg	13	aux	13:aux	_
 12	woon	woon	AUX	CL	Tense=Past	13	aux	13:aux	_
 13	tasaaroo	tasaaroo	VERB	VERB	Mood=Ind|VerbForm=Fin	10	ccomp	10:ccomp	_
 14	lool	lool	ADV	ADV	_	13	advmod	13:advmod	SpaceAfter=No
