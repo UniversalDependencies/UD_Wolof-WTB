@@ -16,9 +16,12 @@ For each of the four sources, one half of the documents were assigned to the tra
 
 The treebank is developed by Cheikh Bamba Dione. The syntactic annotation was checked and corrected manually. We wish to thank Arame Fal, Cheikh Alioune Ndao and Tamsir Anne for kindly giving permission to use their data.
 
-## References
 
-* (citation)
+# Changelog
+
+* 2019-05-15 v2.4
+  * Initial release in Universal Dependencies.
+
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
