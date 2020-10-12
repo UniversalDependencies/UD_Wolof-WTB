@@ -11289,7 +11289,7 @@
 15	génne	génn	VERB	VERB	Mood=Ind|VerbForm=Fin	14	acl	14:acl	_
 16	li	bi	PRON	PRON	Definite=Def|Deixis=Prox|NounClass=Wol7|Number=Sing|Person=3|PronType=Rel	15	obj	15:obj	_
 17	ci	ci	ADP	PREP	_	18	case	18:case	_
-18	moom	moom	PRON	PRON	Number=Sing|Person=3|PronType=Prs	16	orphan	16:orphan	_
+18	moom	moom	PRON	PRON	Number=Sing|Person=3|PronType=Prs	16	nmod	16:nmod	_
 19	te	te	CCONJ	CONJ	_	22	cc	22:cc	_
 20	du	di	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	22	aux	22:aux	_
 21	ko	ko	PRON	CL	Case=Acc|Number=Sing|Person=3|PronType=Prs	22	obj	22:obj	_
@@ -11673,7 +11673,7 @@
 10	wax	wax	VERB	VERB	VerbForm=Inf	9	acl	9:acl	_
 11	li	bi	PRON	PRON	Definite=Def|Deixis=Prox|NounClass=Wol7|Number=Sing|Person=3|PronType=Rel	10	obj	10:obj	_
 12	ci	ci	ADP	PREP	_	13	case	13:case	_
-13	yaw	moom	PRON	PRON	Number=Sing|Person=2|PronType=Prs	11	orphan	11:orphan	SpaceAfter=No
+13	yaw	moom	PRON	PRON	Number=Sing|Person=2|PronType=Prs	11	nmod	11:nmod	SpaceAfter=No
 14	.	.	PUNCT	PERIOD	_	3	punct	3:punct	_
 
 # sent_id = wo_wtb-ud-train_2013
