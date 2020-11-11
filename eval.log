@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Wolof-WTB:
-commit 9bbbfc70d53d521c748501b512775e8a72ff9815
+commit b845e8ce59ee4c516830276197fee66fc27fe316
+Merge: b33354c 466e699
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 12 17:50:14 2019 +0100
 Size: counted 44258 of 44258 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.58007229214735.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -27,12 +27,8 @@ validate.py --lang wo --max-err=10 UD_Wolof-WTB/wo_wtb-ud-dev.conllu
 validate.py --lang wo --max-err=10 UD_Wolof-WTB/wo_wtb-ud-test.conllu
 *** PASSED ***
 validate.py --lang wo --max-err=10 UD_Wolof-WTB/wo_wtb-ud-train.conllu
-[Line 11292 Sent wo_wtb-ud-train_1995 Node 18]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obj'.
-[Line 11676 Sent wo_wtb-ud-train_2012 Node 13]: [L3 Syntax orphan-parent] The parent of 'orphan' should normally be 'conj' but it is 'obj'.
-Syntax errors: 2
-*** FAILED *** with 2 errors
-Exit code: 1
-Validity: 0.01
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
 (weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
@@ -41,6 +37,6 @@ Validity: 0.01
 (weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
 (weight=0.307692307692308) * (score{udapi}=0.959329386777532) = 0.295178272854625
 (weight=0.0769230769230769) * (score{udeprels}=0.837837837837838) = 0.0644490644490645
-(TOTAL score=0.786886564733113) * (availability=1) * (validity=0.01) = 0.00786886564733113
-STARS = 0
-UD_Wolof-WTB	0.00786886564733113	0
+(TOTAL score=0.786886564733113) * (availability=1) * (validity=1) = 0.786886564733113
+STARS = 4
+UD_Wolof-WTB	0.786886564733113	4
