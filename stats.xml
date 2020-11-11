@@ -123,7 +123,7 @@
     <dep name="iobj">298</dep>
     <dep name="iobj:appl">7</dep>
     <dep name="mark">1834</dep>
-    <dep name="nmod">1821</dep>
+    <dep name="nmod">1823</dep>
     <dep name="nmod:poss">1</dep>
     <dep name="nsubj">4679</dep>
     <dep name="nummod">377</dep>
@@ -132,7 +132,7 @@
     <dep name="obj:caus">118</dep>
     <dep name="obl">2139</dep>
     <dep name="obl:appl">79</dep>
-    <dep name="orphan">13</dep>
+    <dep name="orphan">11</dep>
     <dep name="parataxis">412</dep>
     <dep name="punct">5319</dep>
     <dep name="root">2107</dep>
