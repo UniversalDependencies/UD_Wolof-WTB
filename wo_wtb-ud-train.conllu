@@ -7755,7 +7755,7 @@
 3	:	:	PUNCT	COLON	_	8	punct	_	_
 4-5	Danu	_	_	_	_	_	_	_	_
 4	Da	da	AUX	INFL	FocusType=Verb|Mood=Ind	8	aux	_	_
-5	nu	mu	PRON	PRON	Case=Nom|FocusType=Compl|Mood=Ind|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+5	nu	mu	PRON	PRON	Case=Nom|Mood=Ind|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
 6	ci	ci	ADP	PREP	_	8	obl	_	_
 7	daan	di	AUX	AUX	Aspect=Hab|Mood=Ind|Tense=Past	8	aux	_	_
 8	fo	fo	VERB	VERB	Mood=Ind|VerbForm=Fin	2	parataxis	_	_
