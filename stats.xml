@@ -48,7 +48,7 @@
     <feat name="Deixis" value="Remt" upos="ADV,AUX,DET,PRON">396</feat><!-- ba, fa, ga, ya, la, ña, wa, ja, ma, na -->
     <feat name="DeixisRef" value="1" upos="ADV,DET,PRON">256</feat><!-- bii, yii, lii, gii, jii, fii, nii, mii, wii, kii -->
     <feat name="DeixisRef" value="2" upos="ADV,DET,PRON">428</feat><!-- loolu, boobu, yooyu, noonu, googu, moomu, foofu, woowu, jooju, ñooñu -->
-    <feat name="FocusType" value="Compl" upos="AUX,PRON">265</feat><!-- la, lañu, laa, lees, lanu, nga, nu -->
+    <feat name="FocusType" value="Compl" upos="AUX">264</feat><!-- la, lañu, laa, lees, lanu, nga -->
     <feat name="FocusType" value="Subj" upos="AUX">467</feat><!-- a, maa, yaa -->
     <feat name="FocusType" value="Verb" upos="AUX">307</feat><!-- da, nañu -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN">37</feat><!-- l', crise, fistule, obstétrique, Assises, Aternative, Coalition, Laicite, Nationales, administration -->
