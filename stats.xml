@@ -10,8 +10,8 @@
     <dev><sentences>449</sentences><tokens>9966</tokens><words>10294</words><fused>299</fused></dev>
     <test><sentences>470</sentences><tokens>10049</tokens><words>10403</words><fused>309</fused></test>
   </size>
-  <lemmas unique="4200" /><!-- ,, bi, mu, ci, ., di, bu, a, ko, ak, na, ab, la, ne, ba -->
-  <forms unique="5381" /><!-- ,, ci, ., di, a, mu, ak, ko, ñu, na, yi, bu, bi, ba, ne -->
+  <lemmas unique="4199" /><!-- ,, bi, mu, ci, ., di, bu, a, ko, ak, na, ab, la, ne, ba -->
+  <forms unique="5380" /><!-- ,, ci, ., di, a, mu, ak, ko, ñu, na, yi, bu, bi, ba, ne -->
   <fusions unique="133" /><!-- moo, dafa, mooy, ñoo, muy, koy, dañu, ñuy, koo, dafay, dañoo, soo, looloo, may, naa -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">

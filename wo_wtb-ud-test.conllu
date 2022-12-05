@@ -3743,13 +3743,13 @@
 
 # newdoc id = xibaaryi-cosug-àdduna-big-bang
 # sent_id = wo_wtb-ud-train_1700
-# text = Cosug àdduna bi ak Big Bang‎
+# text = Cosug àdduna bi ak Big Bang
 1	Cosug	Cos	NOUN	NOUN	Case=Gen|Number=Sing	0	root	_	_
 2	àdduna	àdduna	NOUN	NOUN	_	1	nmod	_	_
 3	bi	bi	DET	DET	Definite=Def|Deixis=Prox|NounClass=Wol5|Number=Sing|PronType=Art	2	det	_	_
 4	ak	ak	CCONJ	CONJ	_	5	cc	_	_
 5	Big	Big	PROPN	NAME	_	1	conj	_	_
-6	Bang‎	Bang‎	PROPN	NAME	_	5	flat	_	_
+6	Bang	Bang	PROPN	NAME	_	5	flat	_	_
 
 # sent_id = wo_wtb-ud-train_1701
 # text = Nit dafa mas di laaj ci jamono ju nekk, fan la àdduna su daytaluwul sii jóge?
