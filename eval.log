@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 13e6b709a8bc643c3f902800321a7beda46feb8d
+commit 04abe686385f14a9a6f68784bd723a6b60ded594
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 13 22:03:41 2022 +0100
+Date:   Tue May 9 00:14:39 2023 +0200
 Evaluating the following revision of UD_Wolof-WTB:
-commit 78f7cebec77170fe8aa8327c807cf8cb1edc4923
+commit d46254a82a0f64a75f0d439a47f68d93aaa0022a
+Merge: 77d8bdc 8a08cb8
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat May 14 15:37:25 2022 +0200
 Size: counted 44258 of 44258 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.58007229214735.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -24,24 +24,24 @@ Udapi:
 Udapi: found 180 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 44258 words.
 Genres: found 2 out of 17 known.
-validate.py --lang wo --max-err=10 UD_Wolof-WTB/wo_wtb-ud-dev.conllu
-[Line 5697 Sent wo_wtb-ud-train_1630 Node 26]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [6, 23]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 5728 Sent wo_wtb-ud-train_1631 Node 10]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 9]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+/net/work/people/zeman/unidep/tools/validate.py --lang wo --max-err=10 UD_Wolof-WTB/wo_wtb-ud-dev.conllu
+[Line 5697 Sent wo_wtb-ud-train_1630 Node 26]: [L3 Syntax too-many-subjects] Multiple subjects [6, 23] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 5728 Sent wo_wtb-ud-train_1631 Node 10]: [L3 Syntax too-many-subjects] Multiple subjects [2, 9] not subtyped as ':outer'.
 Syntax errors: 2
 *** FAILED *** with 2 errors
 Exit code: 1
-validate.py --lang wo --max-err=10 UD_Wolof-WTB/wo_wtb-ud-test.conllu
-[Line 2895 Sent wo_wtb-ud-train_1669 Node 11]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 9]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 11498 Sent wo_wtb-ud-train_1300 Node 11]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 10]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+/net/work/people/zeman/unidep/tools/validate.py --lang wo --max-err=10 UD_Wolof-WTB/wo_wtb-ud-test.conllu
+[Line 2895 Sent wo_wtb-ud-train_1669 Node 11]: [L3 Syntax too-many-subjects] Multiple subjects [1, 9] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 11498 Sent wo_wtb-ud-train_1300 Node 11]: [L3 Syntax too-many-subjects] Multiple subjects [2, 10] not subtyped as ':outer'.
 Syntax errors: 2
 *** FAILED *** with 2 errors
 Exit code: 1
-validate.py --lang wo --max-err=10 UD_Wolof-WTB/wo_wtb-ud-train.conllu
-[Line 13116 Sent wo_wtb-ud-train_2082 Node 5]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 3]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 18293 Sent wo_wtb-ud-train_875 Node 15]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [11, 13]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 18542 Sent wo_wtb-ud-train_886 Node 20]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [14, 18]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 22867 Sent wo_wtb-ud-train_1134 Node 6]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 4]. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 27428 Sent wo_wtb-ud-train_1375 Node 38]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 36]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+/net/work/people/zeman/unidep/tools/validate.py --lang wo --max-err=10 UD_Wolof-WTB/wo_wtb-ud-train.conllu
+[Line 13116 Sent wo_wtb-ud-train_2082 Node 5]: [L3 Syntax too-many-subjects] Multiple subjects [2, 3] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 18293 Sent wo_wtb-ud-train_875 Node 15]: [L3 Syntax too-many-subjects] Multiple subjects [11, 13] not subtyped as ':outer'.
+[Line 18542 Sent wo_wtb-ud-train_886 Node 20]: [L3 Syntax too-many-subjects] Multiple subjects [14, 18] not subtyped as ':outer'.
+[Line 22867 Sent wo_wtb-ud-train_1134 Node 6]: [L3 Syntax too-many-subjects] Multiple subjects [1, 4] not subtyped as ':outer'.
+[Line 27428 Sent wo_wtb-ud-train_1375 Node 38]: [L3 Syntax too-many-subjects] Multiple subjects [1, 36] not subtyped as ':outer'.
 Syntax errors: 5
 *** FAILED *** with 5 errors
 Exit code: 1
