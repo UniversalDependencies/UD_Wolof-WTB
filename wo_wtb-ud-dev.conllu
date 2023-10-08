@@ -5673,7 +5673,7 @@
 3	ak	ak	CCONJ	CONJ	_	4	cc	_	_
 4	lii	bii	PRON	PRON	Deixis=Prox|DeixisRef=1|NounClass=Wol7|Number=Sing|PronType=Dem	26	dislocated	_	_
 5	lépp	bépp	DET	DET	NounClass=Wol7|Number=Sing|PronType=Tot	4	det	_	_
-6	tudd	tudd	VERB	VERB	VerbForm=Inf	26	csubj	_	_
+6	tudd	tudd	VERB	VERB	VerbForm=Inf	26	csubj:outer	_	_
 7	ci	ci	ADP	PREP	_	10	case	_	_
 8	sunu	sama	DET	DET	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	det	_	_
 9	aw	ab	DET	DET	Definite=Ind|NounClass=Wol10|Number=Sing|PronType=Art	10	det	_	_
@@ -5716,7 +5716,7 @@
 # sent_id = wo_wtb-ud-train_1631
 # text = Waaye tudd sunu soxna yi moom, dafa mel ni lu informel la te it ku ci nekk ña féete ak yaw rekk a di tudd sa aw tur, di wax sa ay jikko, di la misaaloo.
 1	Waaye	waaye	CCONJ	CONJ	_	2	cc	_	_
-2	tudd	tudd	VERB	VERB	VerbForm=Inf	10	csubj	_	_
+2	tudd	tudd	VERB	VERB	VerbForm=Inf	10	csubj:outer	_	_
 3	sunu	sama	DET	DET	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	_
 4	soxna	soxna	NOUN	NOUN	_	2	obj	_	_
 5	yi	bi	DET	DET	Definite=Def|Deixis=Prox|NounClass=Wol8|Number=Plur|PronType=Art	4	det	_	_
@@ -5811,7 +5811,7 @@
 10	diine	diine	NOUN	NOUN	_	9	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	COMMA	_	21	punct	_	_
 12	ndax	ndax	SCONJ	COMP	_	21	mark	_	_
-13	wax	wax	VERB	VERB	VerbForm=Inf	21	advmod	_	_
+13	wax	wax	VERB	VERB	VerbForm=Inf	21	advcl	_	_
 14	dëgg	dëgg	NOUN	NOUN	_	13	compound	_	_
 15	Yàlla	Yàlla	PROPN	NAME	_	13	compound	_	_
 16	nag	nag	ADV	ADV	_	13	advmod	_	SpaceAfter=No
