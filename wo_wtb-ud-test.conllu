@@ -2472,7 +2472,7 @@
 8	,	,	PUNCT	COMMA	_	5	punct	_	_
 9	la	ba	PRON	CL	Definite=Def|Deixis=Remt|NounClass=Wol7|Number=Sing|Person=3|PronType=Rel	5	iobj	_	_
 10	Hilke	Hilke	PROPN	NAME	_	23	nsubj	_	_
-11	Thuer	Thuer	PROPN	NAME	_	10	fixed	_	SpaceAfter=No
+11	Thuer	Thuer	PROPN	NAME	_	10	flat	_	SpaceAfter=No
 12	,	,	PUNCT	COMMA	_	14	punct	_	_
 13	bu	bu	ADP	PREP	_	14	case	_	_
 14	Akadëmi	Akadëmi	PROPN	NAME	_	10	nmod	_	_
@@ -9710,7 +9710,7 @@
 # sent_id = wo_wtb-ud-train_643
 # text = Aal Pulaaren yi ñu ngi may njukkal.
 1	Aal	aal	PROPN	NAME	_	8	dislocated	_	_
-2	Pulaaren	Pulaaren	PROPN	NAME	_	1	fixed	_	_
+2	Pulaaren	Pulaaren	PROPN	NAME	_	1	flat	_	_
 3	yi	bi	DET	DET	Definite=Def|Deixis=Prox|NounClass=Wol8|Number=Plur|PronType=Art	1	det	_	_
 4	ñu	mu	PRON	PRON	Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
 5	ngi	ngi	AUX	AUX	Aspect=Prog	8	aux	_	_

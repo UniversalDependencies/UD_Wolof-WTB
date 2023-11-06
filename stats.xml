@@ -97,29 +97,30 @@
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">1281</feat><!-- am, def, wax, nekk, bañ, doon, xam, nangu, lekk, noppi -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="39">
+  <deps unique="40">
     <dep name="acl">123</dep>
     <dep name="acl:relcl">2337</dep>
-    <dep name="advcl">837</dep>
-    <dep name="advmod">1446</dep>
+    <dep name="advcl">838</dep>
+    <dep name="advmod">1445</dep>
     <dep name="amod">12</dep>
     <dep name="appos">298</dep>
     <dep name="aux">3301</dep>
     <dep name="case">2415</dep>
     <dep name="cc">1367</dep>
     <dep name="ccomp">733</dep>
-    <dep name="compound">220</dep>
+    <dep name="compound">222</dep>
     <dep name="compound:prt">68</dep>
     <dep name="compound:svc">75</dep>
     <dep name="conj">1877</dep>
     <dep name="cop">600</dep>
-    <dep name="csubj">50</dep>
+    <dep name="csubj">48</dep>
+    <dep name="csubj:outer">2</dep>
     <dep name="det">3138</dep>
     <dep name="discourse">47</dep>
     <dep name="dislocated">940</dep>
     <dep name="expl">4</dep>
-    <dep name="fixed">205</dep>
-    <dep name="flat">615</dep>
+    <dep name="fixed">196</dep>
+    <dep name="flat">622</dep>
     <dep name="iobj">298</dep>
     <dep name="iobj:appl">7</dep>
     <dep name="mark">1834</dep>
