@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Wolof-WTB:
-commit 9863ea0da70709f576981da7874f5abaf77e87ed
-Merge: 2789eaf 8c3d6d5
+commit b398b41db5e1ce7fac49094f1a7bf66a28334c5f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 6 13:14:28 2023 +0100
 Size: counted 44258 of 44258 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.58007229214735.
 Size: maximum value 13.815511 is for 1000000 words or more.
