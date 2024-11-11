@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Wolof-WTB:
-commit b398b41db5e1ce7fac49094f1a7bf66a28334c5f
+commit 7a9bcd15cb90d97a7445471a16aa351156586500
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 6 13:14:28 2023 +0100
+Date:   Sun May 5 13:40:35 2024 +0200
 Size: counted 44258 of 44258 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.58007229214735.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -33,12 +33,14 @@ Syntax errors: 2
 *** FAILED *** with 2 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang wo --max-err=10 UD_Wolof-WTB/wo_wtb-ud-train.conllu
+[Line 11097 Sent wo_wtb-ud-train_1989 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:li:det --> 9:indi:acl)
 [Line 13116 Sent wo_wtb-ud-train_2082 Node 5]: [L3 Syntax too-many-subjects] Multiple subjects [2, 3] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 18293 Sent wo_wtb-ud-train_875 Node 15]: [L3 Syntax too-many-subjects] Multiple subjects [11, 13] not subtyped as ':outer'.
 [Line 18542 Sent wo_wtb-ud-train_886 Node 20]: [L3 Syntax too-many-subjects] Multiple subjects [14, 18] not subtyped as ':outer'.
 [Line 22867 Sent wo_wtb-ud-train_1134 Node 6]: [L3 Syntax too-many-subjects] Multiple subjects [1, 4] not subtyped as ':outer'.
 [Line 27428 Sent wo_wtb-ud-train_1375 Node 38]: [L3 Syntax too-many-subjects] Multiple subjects [1, 36] not subtyped as ':outer'.
 Syntax errors: 5
+Warnings: 1
 *** FAILED *** with 5 errors
 Exit code: 1
 Validity: 0.01
