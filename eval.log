@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Wolof-WTB:
-commit 7a9bcd15cb90d97a7445471a16aa351156586500
+commit 16bb2f8e8aba0ce426bf852549950cd7ba1b14cb
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 13:40:35 2024 +0200
+Date:   Mon Nov 11 16:50:31 2024 +0100
 Size: counted 44258 of 44258 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.58007229214735.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,38 +20,100 @@ Features: source of annotation (from README) factor is 1.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL        178
-Udapi: found 178 bugs.
+               TOTAL         44
+Udapi: found 44 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 44258 words.
-Genres: found 2 out of 17 known.
+Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang wo --max-err=10 UD_Wolof-WTB/wo_wtb-ud-dev.conllu
-*** PASSED ***
+[Line 83 Sent wo_wtb-ud-train_310 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'ba kero' does not have the 'ExtPos' feature
+[Line 275 Sent wo_wtb-ud-train_319 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'lu dul' does not have the 'ExtPos' feature
+[Line 646 Sent wo_wtb-ud-train_3 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Bu jëkk' does not have the 'ExtPos' feature
+[Line 646 Sent wo_wtb-ud-train_3 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'Bu'
+[Line 950 Sent wo_wtb-ud-train_18 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'ci diggante' does not have the 'ExtPos' feature
+[Line 2717 Sent wo_wtb-ud-train_1524 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'lu dul' does not have the 'ExtPos' feature
+[Line 3240 Sent wo_wtb-ud-train_1538 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'kemm kàttanam' does not have the 'ExtPos' feature
+[Line 3240 Sent wo_wtb-ud-train_1538 Node 19]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN' word 'kemm'
+[Line 3894 Sent wo_wtb-ud-train_1567 Node 30]: [L3 Warning fixed-without-extpos] Fixed expression 'ci biir' does not have the 'ExtPos' feature
+[Line 4248 Sent wo_wtb-ud-train_1579 Node 29]: [L3 Warning fixed-without-extpos] Fixed expression 'lu dul' does not have the 'ExtPos' feature
+[Line 4329 Sent wo_wtb-ud-train_1582 Node 33]: [L3 Warning fixed-without-extpos] Fixed expression 'as tuut' does not have the 'ExtPos' feature
+[Line 4963 Sent wo_wtb-ud-train_1605 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'ci diggante' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 5896 Sent wo_wtb-ud-train_1636 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB' word 'Wax'
+[Line 7992 Sent wo_wtb-ud-train_1116 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'bu'
+[Line 8437 Sent wo_wtb-ud-train_526 Node 9]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'bu'
+[Line 9316 Sent wo_wtb-ud-train_1051 Node 29]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'bu'
+[Line 9955 Sent wo_wtb-ud-train_597 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'Lu'
+[Line 9990 Sent wo_wtb-ud-train_599 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Ba'
+[Line 10394 Sent wo_wtb-ud-train_616 Node 19]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'bu'
+[Line 11159 Sent wo_wtb-ud-train_1331 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'bu'
+...suppressing further errors regarding Syntax
+Syntax errors: 11
+Warnings: 33
+*** FAILED *** with 11 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang wo --max-err=10 UD_Wolof-WTB/wo_wtb-ud-test.conllu
-[Line 2895 Sent wo_wtb-ud-train_1669 Node 11]: [L3 Syntax too-many-subjects] Multiple subjects [1, 9] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 11498 Sent wo_wtb-ud-train_1300 Node 11]: [L3 Syntax too-many-subjects] Multiple subjects [2, 10] not subtyped as ':outer'.
-Syntax errors: 2
-*** FAILED *** with 2 errors
+[Line 834 Sent wo_wtb-ud-train_135 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'ci kaw' does not have the 'ExtPos' feature
+[Line 924 Sent wo_wtb-ud-train_139 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'ci ron' does not have the 'ExtPos' feature
+[Line 1030 Sent wo_wtb-ud-train_142 Node 16]: [L3 Warning fixed-without-extpos] Fixed expression 'ci kaw' does not have the 'ExtPos' feature
+[Line 1180 Sent wo_wtb-ud-train_149 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'ci diggante' does not have the 'ExtPos' feature
+[Line 1542 Sent wo_wtb-ud-train_166 Node 21]: [L3 Warning fixed-without-extpos] Fixed expression 'ci biir' does not have the 'ExtPos' feature
+[Line 1765 Sent wo_wtb-ud-train_178 Node 14]: [L3 Warning fixed-without-extpos] Fixed expression 'ci diggante' does not have the 'ExtPos' feature
+[Line 2768 Sent wo_wtb-ud-train_1665 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Bu njëkkoon' does not have the 'ExtPos' feature
+[Line 2768 Sent wo_wtb-ud-train_1665 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'Bu'
+[Line 2828 Sent wo_wtb-ud-train_1667 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'bu jëkkoon' does not have the 'ExtPos' feature
+[Line 2828 Sent wo_wtb-ud-train_1667 Node 13]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'bu'
+[Line 2895 Sent wo_wtb-ud-train_1669 Node 11]: [L3 Syntax too-many-subjects] Multiple subjects [1, 9] not subtyped as ':outer'.
+[Line 2902 Sent wo_wtb-ud-train_1669 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'gën gaa néew' does not have the 'ExtPos' feature
+[Line 2902 Sent wo_wtb-ud-train_1669 Node 18]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'VERB' word 'gën'
+[Line 2919 Sent wo_wtb-ud-train_1670 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'lu dul' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 3869 Sent wo_wtb-ud-train_1706 Node 31]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'naka'
+[Line 3914 Sent wo_wtb-ud-train_1707 Node 28]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'ba'
+[Line 4898 Sent wo_wtb-ud-train_1743 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'lu'
+[Line 5163 Sent wo_wtb-ud-train_1752 Node 16]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'naka'
+[Line 5569 Sent wo_wtb-ud-train_1768 Node 28]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'bu'
+[Line 5773 Sent wo_wtb-ud-train_1775 Node 16]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'bu'
+...suppressing further errors regarding Syntax
+Syntax errors: 18
+Warnings: 45
+*** FAILED *** with 18 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang wo --max-err=10 UD_Wolof-WTB/wo_wtb-ud-train.conllu
-[Line 11097 Sent wo_wtb-ud-train_1989 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:li:det --> 9:indi:acl)
-[Line 13116 Sent wo_wtb-ud-train_2082 Node 5]: [L3 Syntax too-many-subjects] Multiple subjects [2, 3] not subtyped as ':outer'. Outer subjects are allowed if a clause acts as the predicate of another clause.
-[Line 18293 Sent wo_wtb-ud-train_875 Node 15]: [L3 Syntax too-many-subjects] Multiple subjects [11, 13] not subtyped as ':outer'.
-[Line 18542 Sent wo_wtb-ud-train_886 Node 20]: [L3 Syntax too-many-subjects] Multiple subjects [14, 18] not subtyped as ':outer'.
-[Line 22867 Sent wo_wtb-ud-train_1134 Node 6]: [L3 Syntax too-many-subjects] Multiple subjects [1, 4] not subtyped as ':outer'.
-[Line 27428 Sent wo_wtb-ud-train_1375 Node 38]: [L3 Syntax too-many-subjects] Multiple subjects [1, 36] not subtyped as ':outer'.
-Syntax errors: 5
-Warnings: 1
-*** FAILED *** with 5 errors
+[Line 93 Sent wo_wtb-ud-train_30 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ba pare' does not have the 'ExtPos' feature
+[Line 93 Sent wo_wtb-ud-train_30 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' word 'Ba'
+[Line 297 Sent wo_wtb-ud-train_40 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Ba noppi' does not have the 'ExtPos' feature
+[Line 297 Sent wo_wtb-ud-train_40 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Ba'
+[Line 796 Sent wo_wtb-ud-train_69 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'ca kaw' does not have the 'ExtPos' feature
+[Line 972 Sent wo_wtb-ud-train_78 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'lu dul' does not have the 'ExtPos' feature
+[Line 1110 Sent wo_wtb-ud-train_84 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'ci kaw' does not have the 'ExtPos' feature
+[Line 1110 Sent wo_wtb-ud-train_84 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'ci'
+[Line 1140 Sent wo_wtb-ud-train_85 Node 18]: [L3 Warning fixed-without-extpos] Fixed expression 'ca digg' does not have the 'ExtPos' feature
+[Line 1145 Sent wo_wtb-ud-train_85 Node 23]: [L3 Warning fixed-without-extpos] Fixed expression 'ca diggante' does not have the 'ExtPos' feature
+[Line 1170 Sent wo_wtb-ud-train_86 Node 16]: [L3 Warning fixed-without-extpos] Fixed expression 'ku nekk' does not have the 'ExtPos' feature
+[Line 1259 Sent wo_wtb-ud-train_91 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Gannaaw bi' does not have the 'ExtPos' feature
+[Line 1259 Sent wo_wtb-ud-train_91 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN' word 'Gannaaw'
+[Line 1632 Sent wo_wtb-ud-train_108 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'lu dul' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 3056 Sent wo_wtb-ud-train_248 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'bu'
+[Line 4198 Sent wo_wtb-ud-train_302 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' word 'Bu'
+[Line 5626 Sent wo_wtb-ud-train_1424 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'bu'
+[Line 7598 Sent wo_wtb-ud-train_414 Node 31]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'PRON' word 'bu'
+[Line 8619 Sent wo_wtb-ud-train_1876 Node 20]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'naka'
+[Line 9895 Sent wo_wtb-ud-train_1938 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' word 'Bu'
+...suppressing further errors regarding Syntax
+Syntax errors: 39
+Warnings: 110
+*** FAILED *** with 39 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
-(weight=0.0769230769230769) * (score{genres}=0.117647058823529) = 0.00904977375565611
+(weight=0.0769230769230769) * (score{genres}=0.111111111111111) = 0.00854700854700855
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
 (weight=0.256410256410256) * (score{size}=0.548663928151221) = 0.140683058500313
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.941176470588235) = 0.0723981900452489
-(weight=0.307692307692308) * (score{udapi}=0.959781282480004) = 0.295317317686155
+(weight=0.307692307692308) * (score{udapi}=0.990058294545619) = 0.304633321398652
 (weight=0.0769230769230769) * (score{udeprels}=0.837837837837838) = 0.0644490644490645
-(TOTAL score=0.787025609564643) * (availability=1) * (validity=0.01) = 0.00787025609564643
+(TOTAL score=0.795838848068492) * (availability=1) * (validity=0.01) = 0.00795838848068492
 STARS = 0
-UD_Wolof-WTB	0.00787025609564643	0
+UD_Wolof-WTB	0.00795838848068492	0
