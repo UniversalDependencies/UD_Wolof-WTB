@@ -11094,7 +11094,7 @@
 7-8	bay	_	_	_	_	_	_	_	_
 7	ba	ba	SCONJ	COMP	_	9	mark	_	_
 8	di	di	AUX	AUX	Aspect=Imp|Mood=Ind|Tense=Pres	9	aux	_	_
-9	indi	indi	VERB	VERB	Mood=Ind|VerbForm=Fin	6	acl:relcl	_	_
+9	indi	indi	VERB	VERB	Mood=Ind|VerbForm=Fin	5	acl:relcl	_	_
 10	ay	ab	DET	DET	Definite=Ind|NounClass=Wol8|Number=Plur|PronType=Art	11	det	_	_
 11	yax	yax	NOUN	NOUN	_	9	obj	_	_
 12	yu	bu	PRON	PRON	NounClass=Wol8|Number=Plur|Person=3|PronType=Rel	15	nsubj	_	_
