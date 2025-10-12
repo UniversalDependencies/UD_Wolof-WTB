@@ -272,7 +272,7 @@
 4	nguur	nguur	NOUN	NOUN	_	1	nmod	_	_
 5	yii	bii	DET	DET	Deixis=Prox|DeixisRef=1|NounClass=Wol8|Number=Plur|PronType=Dem	4	det	_	_
 6	ci	ci	ADP	PREP	_	9	case	_	_
-7	lu	lu	ADP	PREP	_	9	case	_	_
+7	lu	lu	ADP	PREP	ExtPos=ADP	9	case	_	_
 8	dul	dul	ADP	PREP	_	7	fixed	_	_
 9	sikk	sikk	NOUN	NOUN	_	1	nmod	_	_
 10-11	moo	_	_	_	_	_	_	_	_
@@ -947,7 +947,7 @@
 8	jur	jur	VERB	VERB	Mood=Ind|VerbForm=Fin	4	ccomp	_	_
 9	ay	ab	DET	DET	Definite=Ind|NounClass=Wol8|Number=Plur|PronType=Art	10	det	_	_
 10	réeroo	réeroo	NOUN	NOUN	_	8	obj	_	_
-11	ci	ci	ADP	PREP	_	14	case	_	_
+11	ci	ci	ADP	PREP	ExtPos=ADP	14	case	_	_
 12	diggante	diggante	NOUN	NOUN	_	11	fixed	_	_
 13	ñaari	ñaar	NUM	NUMBER	NumType=Card	14	nummod	_	_
 14	nguur	nguur	NOUN	NOUN	_	8	obl	_	_
@@ -2714,7 +2714,7 @@
 # sent_id = wo_wtb-ud-train_1524
 # text = Ci lu dul weeru koor, baaxoo woon na di woor, koor yi ñu taamu ci at mi, ak i koor yu mu tegoo woon.
 1	Ci	ci	ADP	PREP	_	4	case	_	_
-2	lu	lu	ADP	PREP	_	4	case	_	_
+2	lu	lu	ADP	PREP	ExtPos=ADP	4	case	_	_
 3	dul	dul	ADP	PREP	_	2	fixed	_	_
 4	weeru	weer	NOUN	NOUN	Case=Gen|Number=Sing	7	obl	_	_
 5	koor	koor	NOUN	NOUN	_	4	nmod	_	SpaceAfter=No
@@ -3891,7 +3891,7 @@
 27	wa	bi	DET	DET	Definite=Def|Deixis=Remt|NounClass=Wol10|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
 28	,	,	PUNCT	COMMA	_	29	punct	_	_
 29	dugg	dugg	VERB	VERB	Mood=Ind|VerbForm=Fin	21	conj	_	_
-30	ci	ci	ADP	PREP	_	32	case	_	_
+30	ci	ci	ADP	PREP	ExtPos=ADP	32	case	_	_
 31	biir	biir	NOUN	NOUN	_	30	fixed	_	_
 32	neeg	neeg	NOUN	NOUN	_	29	obl	_	_
 33	bi	bi	DET	DET	Definite=Def|Deixis=Prox|NounClass=Wol5|Number=Sing|PronType=Art	32	det	_	SpaceAfter=No
@@ -4960,7 +4960,7 @@
 9	wi	bi	PRON	PRON	Definite=Def|Deixis=Prox|NounClass=Wol10|Number=Sing|Person=3|PronType=Rel	11	nsubj	_	_
 10	di	di	AUX	AUX	Aspect=Imp|Mood=Ind|Tense=Pres	11	aux	_	_
 11	dox	dox	VERB	VERB	Mood=Ind|VerbForm=Fin	6	acl:relcl	_	_
-12	ci	ci	ADP	PREP	_	14	case	_	_
+12	ci	ci	ADP	PREP	ExtPos=ADP	14	case	_	_
 13	diggante	diggante	NOUN	NOUN	_	12	fixed	_	_
 14	way-jur	way-jur	NOUN	NOUN	_	11	obl	_	_
 15	ak	ak	CCONJ	CONJ	_	16	cc	_	_
@@ -6548,7 +6548,7 @@
 20	ci	ci	ADP	PREP	_	21	mark	_	_
 21	dugal	dugal	VERB	VERB	VerbForm=Inf	19	xcomp	_	_
 22	daamar	daamar	NOUN	NOUN	_	21	obj	_	_
-23	ci	ci	ADP	PREP	_	25	case	_	_
+23	ci	ci	ADP	PREP	ExtPos=ADP	25	case	_	_
 24	biir	biir	NOUN	NOUN	_	23	fixed	_	_
 25	réew	réew	NOUN	NOUN	_	21	obl	_	_
 26	mi	bi	DET	DET	Definite=Def|Deixis=Prox|NounClass=Wol6|Number=Sing|PronType=Art	25	det	_	SpaceAfter=No
@@ -8679,7 +8679,7 @@
 16	ñu	mu	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
 17	di	di	AUX	AUX	Aspect=Imp|Mood=Ind|Tense=Pres	18	aux	_	_
 18	làkk	làkk	VERB	VERB	Mood=Ind|VerbForm=Fin	14	conj	_	_
-19	lu	lu	ADP	PREP	_	22	case	_	_
+19	lu	lu	ADP	PREP	ExtPos=ADP	22	case	_	_
 20	dul	dul	ADP	PREP	_	19	fixed	_	_
 21	sunu	sunu	DET	DET	Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	det	_	_
 22	làmmiñ	làmmiñ	NOUN	NOUN	_	18	obl	_	_
@@ -9150,7 +9150,7 @@
 25	,	,	PUNCT	COMMA	_	27	punct	_	_
 26	du	di	AUX	COP	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	27	cop	_	_
 27	lenn	benn	PRON	PRON	NounClass=Wol7|Number=Sing|PronType=Ind,Neg	16	advcl	_	_
-28	lu	lu	ADP	PREP	_	30	case	_	_
+28	lu	lu	ADP	PREP	ExtPos=ADP	30	case	_	_
 29	dul	dul	ADP	PREP	_	28	fixed	_	_
 30	waxantu	waxantu	NOUN	NOUN	_	27	nmod	_	_
 31	ak	ak	CCONJ	CONJ	_	32	cc	_	_
@@ -9330,7 +9330,7 @@
 42	,	,	PUNCT	COMMA	_	43	punct	_	_
 43	duggeewu	dugge	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	39	parataxis	_	_
 44	ko	ko	PRON	CL	Case=Acc|Number=Sing|Person=3|PronType=Prs	43	obj	_	_
-45	lu	lu	ADP	PREP	_	47	case	_	_
+45	lu	lu	ADP	PREP	ExtPos=ADP	47	case	_	_
 46	dul	dul	ADP	PREP	_	45	fixed	_	_
 47	naxaate	naxaate	NOUN	NOUN	_	43	obl	_	_
 48	kese	kese	ADV	ADV	_	47	advmod	_	SpaceAfter=No
@@ -9364,7 +9364,7 @@
 23	ngir	ngir	ADP	PREP	_	24	mark	_	_
 24	suxali	suxali	VERB	VERB	VerbForm=Inf	22	advcl	_	_
 25	Senegaal	Senegaal	PROPN	NAME	_	24	obj	_	_
-26	ci	ci	ADP	PREP	_	28	case	_	_
+26	ci	ci	ADP	PREP	ExtPos=ADP	28	case	_	_
 27	kaw	kaw	NOUN	NOUN	_	26	fixed	_	_
 28	xel	xel	NOUN	NOUN	_	24	obl	_	_
 29	ak	ak	CCONJ	CONJ	_	30	cc	_	_
@@ -10032,7 +10032,7 @@
 11	deesu	di	AUX	AUX	Aspect=Imp|Mood=Ind|Person=3|Polarity=Neg|Tense=Pres	13	aux	_	_
 12	ko	ko	PRON	CL	Case=Acc|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
 13	tekki	tekki	VERB	VERB	Mood=Ind|VerbForm=Fin	3	ccomp	_	_
-14	lu	lu	ADP	PREP	_	17	case	_	_
+14	lu	lu	ADP	PREP	ExtPos=ADP	17	case	_	_
 15	dul	dul	ADP	PREP	_	14	fixed	_	_
 16	ay	ab	DET	DET	Definite=Ind|NounClass=Wol8|Number=Plur|PronType=Art	17	det	_	_
 17	ati	at	NOUN	NOUN	Case=Gen|Number=Plur	13	obl	_	_
@@ -11709,7 +11709,7 @@
 10	yit	yit	ADV	ADV	_	9	advmod	_	_
 11	di	di	AUX	AUX	Aspect=Imp|Mood=Ind|Tense=Pres	12	aux	_	_
 12	lekkantu	lekkantu	VERB	VERB	VerbForm=Inf	9	xcomp	_	_
-13	ci	ci	ADP	PREP	_	15	case	_	_
+13	ci	ci	ADP	PREP	ExtPos=ADP	15	case	_	_
 14	diggante	diggante	NOUN	NOUN	_	13	fixed	_	_
 15	ndënale	ndënale	NOUN	NOUN	_	12	obl	_	_
 16	yi	bi	DET	DET	Definite=Def|Deixis=Prox|NounClass=Wol8|Number=Plur|PronType=Art	15	det	_	SpaceAfter=No

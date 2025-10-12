@@ -33,7 +33,7 @@
     <tag name="VERB">7918</tag><!-- am, nekk, ne, xam, def, mën, war, wax, gën, mel -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="64">
+  <feats unique="65">
     <feat name="Aspect" value="Hab" upos="AUX,VERB">95</feat><!-- daan, daa, daawul, daawu, ngoonaan, waan -->
     <feat name="Aspect" value="Imp" upos="AUX,PRON,VERB">1536</feat><!-- di, du, doon, dina, dee, dees, duñu, dul, dinañu, deesu -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">1053</feat><!-- na, nañu, naa, defee, fekkee, nanu, nga, nekkee, tukkee, amee -->
@@ -48,6 +48,7 @@
     <feat name="Deixis" value="Remt" upos="ADV,AUX,DET,PRON">396</feat><!-- ba, fa, ga, ya, la, ña, wa, ja, ma, na -->
     <feat name="DeixisRef" value="1" upos="ADV,DET,PRON">256</feat><!-- bii, yii, lii, gii, jii, fii, nii, mii, wii, kii -->
     <feat name="DeixisRef" value="2" upos="ADV,DET,PRON">428</feat><!-- loolu, boobu, yooyu, noonu, googu, moomu, foofu, woowu, jooju, ñooñu -->
+    <feat name="ExtPos" value="ADP" upos="ADP">79</feat><!-- ci, lu, ca -->
     <feat name="ExtPos" value="ADV" upos="ADP,ADV,DET,NOUN,NUM,PRON,SCONJ,VERB">71</feat><!-- bu, lu, naka, ba, gën, fu, benn, diiroo, Am, Gannaaw -->
     <feat name="ExtPos" value="SCONJ" upos="ADP,SCONJ">20</feat><!-- lu, su, ba, ci -->
     <feat name="FocusType" value="Compl" upos="AUX">264</feat><!-- la, lañu, laa, lees, lanu, nga -->

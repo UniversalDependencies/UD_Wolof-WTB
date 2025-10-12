@@ -831,7 +831,7 @@
 9	jóg	jóg	VERB	VERB	Mood=Ind|VerbForm=Fin	3	conj	_	_
 10	def	def	VERB	VERB	Mood=Ind|VerbForm=Fin	9	compound:svc	_	_
 11	jiyaar	jiyaar	NOUN	NOUN	_	10	obj	_	_
-12	ci	ci	ADP	PREP	_	14	case	_	_
+12	ci	ci	ADP	PREP	ExtPos=ADP	14	case	_	_
 13	kaw	kaw	NOUN	NOUN	_	12	fixed	_	_
 14	dëkkandoom	dëkkandoo	NOUN	NOUN	Number=Plur|Poss=Yes	10	obl	_	_
 15	yi	bi	PRON	PRON	Definite=Def|Deixis=Prox|NounClass=Wol8|Number=Plur|Person=3|PronType=Rel	16	nsubj	_	_
@@ -921,7 +921,7 @@
 11	da	da	AUX	INFL	FocusType=Verb|Mood=Ind	13	aux	_	_
 12	mu	mu	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
 13	rotoon	rot	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
-14	ci	ci	ADP	PREP	_	16	case	_	_
+14	ci	ci	ADP	PREP	ExtPos=ADP	16	case	_	_
 15	ron	ron	NOUN	NOUN	_	14	fixed	_	_
 16	teg	teg	NOUN	NOUN	_	13	obl	_	_
 17	loxo	loxo	NOUN	NOUN	_	16	compound	_	_
@@ -1027,7 +1027,7 @@
 13	ngir	ngir	ADP	PREP	_	14	mark	_	_
 14	yaatal	yaatal	VERB	VERB	VerbForm=Inf	9	advcl	_	_
 15	suufam	suuf	NOUN	NOUN	Number=Sing|Poss=Yes	14	obj:appl	_	_
-16	ci	ci	ADP	PREP	_	19	case	_	_
+16	ci	ci	ADP	PREP	ExtPos=ADP	19	case	_	_
 17	kaw	kaw	NOUN	NOUN	_	16	fixed	_	_
 18	ay	ab	DET	DET	Definite=Ind|NounClass=Wol8|Number=Plur|PronType=Art	19	det	_	_
 19	dëkkandoom	dëkkandoo	NOUN	NOUN	Number=Plur|Poss=Yes	14	obl	_	SpaceAfter=No
@@ -1177,7 +1177,7 @@
 11	leen	ko	PRON	CL	Case=Acc|Number=Plur|Person=2,3|PronType=Prs	12	obj	_	_
 12	fekk	fekk	VERB	VERB	Mood=Ind|VerbForm=Fin	8	conj	_	_
 13	tamit	tamit	ADV	ADV	_	12	advmod	_	_
-14	ci	ci	ADP	PREP	_	16	case	_	_
+14	ci	ci	ADP	PREP	ExtPos=ADP	16	case	_	_
 15	diggante	diggante	NOUN	NOUN	_	14	fixed	_	_
 16	Ndar	Ndar	PROPN	NAME	_	12	obl	_	_
 17	(	(	PUNCT	PAREN	_	18	punct	_	SpaceAfter=No
@@ -1539,7 +1539,7 @@
 18	kaw-kaw	kaw-kaw	NOUN	NOUN	_	20	nsubj	_	_
 19	yi	bi	DET	DET	Definite=Def|Deixis=Prox|NounClass=Wol8|Number=Plur|PronType=Art	18	det	_	_
 20	dëkk	dëkk	VERB	VERB	Mood=Ind|VerbForm=Fin	10	conj	_	_
-21	ci	ci	ADP	PREP	_	23	case	_	_
+21	ci	ci	ADP	PREP	ExtPos=ADP	23	case	_	_
 22	biir	biir	NOUN	NOUN	_	21	fixed	_	_
 23	réew	réew	NOUN	NOUN	_	20	obl	_	_
 24	mi	bi	DET	DET	Definite=Def|Deixis=Prox|NounClass=Wol6|Number=Sing|PronType=Art	23	det	_	SpaceAfter=No
@@ -1762,7 +1762,7 @@
 11	agsi	agsi	VERB	VERB	VerbForm=Inf	10	xcomp	_	_
 12	ca	ca	ADP	PREP	_	13	case	_	_
 13	Ndakkaru	Ndakkaru	PROPN	NAME	_	11	obl	_	_
-14	ci	ci	ADP	PREP	_	16	case	_	_
+14	ci	ci	ADP	PREP	ExtPos=ADP	16	case	_	_
 15	diggante	diggante	NOUN	NOUN	_	14	fixed	_	_
 16	atum	at	NOUN	NOUN	Case=Gen|Number=Sing	11	obl	_	_
 17	1430	1430	NUM	NUMBER	NumType=Card	16	nummod	_	_
@@ -3963,7 +3963,7 @@
 # sent_id = wo_wtb-ud-train_1709
 # text = Lenn lu dul ne-ne amul.
 1	Lenn	benn	PRON	PRON	NounClass=Wol7|Number=Sing|PronType=Ind,Neg	5	nsubj	_	_
-2	lu	lu	ADP	PREP	_	4	case	_	_
+2	lu	lu	ADP	PREP	ExtPos=ADP	4	case	_	_
 3	dul	dul	ADP	PREP	_	2	fixed	_	_
 4	ne-ne	ne-ne	NOUN	NOUN	_	1	nmod	_	_
 5	amul	am	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -4158,7 +4158,7 @@
 
 # sent_id = wo_wtb-ud-train_1716
 # text = Ci biir loolu jëm-kanam yi xam-xam ak xarala amal ci ñaar-fukkeelu xarnu, màbb nañu ci mujj gi xalaat bu njëlbéenu bii ñu di wooye ngérum ne-ne, wuññees na ne àdduna bi saxul ni ko ñoñ ne-ne ñi daan waxe.
-1	Ci	ci	ADP	PREP	_	3	case	_	_
+1	Ci	ci	ADP	PREP	ExtPos=ADP	3	case	_	_
 2	biir	biir	NOUN	NOUN	_	1	fixed	_	_
 3	loolu	boobu	PRON	PRON	Deixis=Prox|DeixisRef=2|NounClass=Wol7|Number=Sing|PronType=Dem	14	obl	_	_
 4	jëm-kanam	jëm-kanam	NOUN	NOUN	_	14	nsubj	_	_
@@ -5094,7 +5094,7 @@
 
 # sent_id = wo_wtb-ud-train_1750
 # text = Ci digg ñaar-fukkeelu xarnu Hoyle daldi nay doon farandoob gisiin wu melokaan wu sax wi.
-1	Ci	ci	ADP	PREP	_	4	case	_	_
+1	Ci	ci	ADP	PREP	ExtPos=ADP	4	case	_	_
 2	digg	digg	NOUN	NOUN	_	1	fixed	_	_
 3	ñaar-fukkeelu	ñaar-fukk	NUM	NUMBER	NumType=Ord	4	nummod	_	_
 4	xarnu	xarnu	NOUN	NOUN	_	9	obl	_	_
@@ -5223,7 +5223,7 @@
 13	Bang	Bang	PROPN	NAME	_	12	flat	_	SpaceAfter=No
 14	,	,	PUNCT	COMMA	_	22	punct	_	_
 15	waaye	waaye	CCONJ	CONJ	_	22	cc	_	_
-16	ci	ci	ADP	PREP	_	18	case	_	_
+16	ci	ci	ADP	PREP	ExtPos=ADP	18	case	_	_
 17	biir	biir	NOUN	NOUN	_	16	fixed	_	_
 18	loolu	boobu	PRON	PRON	Deixis=Prox|DeixisRef=2|NounClass=Wol7|Number=Sing|PronType=Dem	22	obl	_	_
 19	xam-xam	xam-xam	NOUN	NOUN	_	22	dislocated	_	_
@@ -5507,7 +5507,7 @@
 
 # sent_id = wo_wtb-ud-train_1767
 # text = Ci biir gëstu yi gisees na ne dajaloog Idrojen-Eliyom gi am ci àdduna bi dëppoo naak xaymay gisiin yu dajaloog Idrogen-Elyom yi desoon ginnaaw Big Bang.
-1	Ci	ci	ADP	PREP	_	3	case	_	_
+1	Ci	ci	ADP	PREP	ExtPos=ADP	3	case	_	_
 2	biir	biir	NOUN	NOUN	_	1	fixed	_	_
 3	gëstu	gëst	NOUN	NOUN	_	5	obl	_	_
 4	yi	bi	DET	DET	Definite=Def|Deixis=Prox|NounClass=Wol8|Number=Plur|PronType=Art	3	det	_	_
@@ -6165,7 +6165,7 @@
 
 # sent_id = wo_wtb-ud-train_1789
 # text = Ci biir loolu ag fàcc, ci yoon, ag nosu daawu ci juddoo.
-1	Ci	ci	ADP	PREP	_	3	case	_	_
+1	Ci	ci	ADP	PREP	ExtPos=ADP	3	case	_	_
 2	biir	biir	NOUN	NOUN	_	1	fixed	_	_
 3	loolu	boobu	PRON	PRON	Deixis=Prox|DeixisRef=2|NounClass=Wol7|Number=Sing|PronType=Dem	14	obl	_	_
 4	ag	ab	DET	DET	Definite=Ind|NounClass=Wol3|Number=Sing|PronType=Art	5	det	_	_
@@ -6234,7 +6234,7 @@
 26	manul	man	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	23	ccomp	_	_
 27	a	a	PART	PART	_	28	mark	_	_
 28	ñàkk	ñàkk	VERB	VERB	VerbForm=Inf	26	xcomp	_	_
-29	ci	ci	ADP	PREP	_	31	case	_	_
+29	ci	ci	ADP	PREP	ExtPos=ADP	31	case	_	_
 30	ginaaw	ginaaw	NOUN	NOUN	_	29	fixed	_	_
 31	li	bi	PRON	PRON	Definite=Def|Deixis=Prox|NounClass=Wol7|Number=Sing|Person=3|PronType=Rel	28	obl	_	_
 32	ko	ko	PRON	CL	Case=Acc|Number=Sing|Person=3|PronType=Prs	33	obj	_	_
@@ -6404,7 +6404,7 @@
 9	ci	ci	ADP	PREP	_	10	case	_	_
 10	àdduna	àdduna	NOUN	NOUN	_	8	obl	_	_
 11	bi	bi	DET	DET	Definite=Def|Deixis=Prox|NounClass=Wol5|Number=Sing|PronType=Art	10	det	_	_
-12	ci	ci	ADP	PREP	_	14	case	_	_
+12	ci	ci	ADP	PREP	ExtPos=ADP	14	case	_	_
 13	ginnaaw	ginnaaw	NOUN	NOUN	_	12	fixed	_	_
 14	Big	Big	PROPN	NAME	_	8	obl	_	_
 15	Bang	Bang	PROPN	NAME	_	14	flat	_	_
@@ -7258,7 +7258,7 @@
 2	tomb	tomb	NOUN	NOUN	_	10	nsubj	_	_
 3	yi	bi	PRON	PRON	Definite=Def|Deixis=Prox|NounClass=Wol8|Number=Plur|Person=3|PronType=Rel	4	nsubj	_	_
 4	nekk	nekk	VERB	VERB	Mood=Ind|VerbForm=Fin	2	acl:relcl	_	_
-5	ci	ci	ADP	PREP	_	7	case	_	_
+5	ci	ci	ADP	PREP	ExtPos=ADP	7	case	_	_
 6	kaw	kaw	NOUN	NOUN	_	5	fixed	_	_
 7	manq	manq	NOUN	NOUN	_	4	obl	_	_
 8	gi	bi	DET	DET	Definite=Def|Deixis=Prox|NounClass=Wol3|Number=Sing|PronType=Art	7	det	_	_
@@ -7330,7 +7330,7 @@
 19	àggoon	àgg	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 20	na	na	AUX	INFL	Aspect=Perf|Mood=Ind|Number=Sing|Person=3	19	aux	_	SpaceAfter=No
 21	,	,	PUNCT	COMMA	_	25	punct	_	_
-22	ci	ci	ADP	PREP	_	25	case	_	_
+22	ci	ci	ADP	PREP	ExtPos=ADP	25	case	_	_
 23	ginnaaw	ginnaaw	NOUN	NOUN	_	22	fixed	_	_
 24	ay	ab	DET	DET	Definite=Ind|NounClass=Wol8|Number=Plur|PronType=Art	25	det	_	_
 25	xayma	xayma	NOUN	NOUN	_	19	obl	_	_
@@ -7354,7 +7354,7 @@
 
 # sent_id = wo_wtb-ud-train_1824
 # text = Ci biir loolu dafa tegoon nee wuññeem googu, ngir rekk bañ a dëppoodi ak misaalum sax mu àdduna bi, mi nga xam ne moom la ñépp jëloon ci ay jamonoom.
-1	Ci	ci	ADP	PREP	_	3	case	_	_
+1	Ci	ci	ADP	PREP	ExtPos=ADP	3	case	_	_
 2	biir	biir	NOUN	NOUN	_	1	fixed	_	_
 3	loolu	boobu	PRON	PRON	Deixis=Prox|DeixisRef=2|NounClass=Wol7|Number=Sing|PronType=Dem	6	obl	_	_
 4-5	dafa	_	_	_	_	_	_	_	_
@@ -10709,7 +10709,7 @@
 8	eggali	eggali	VERB	VERB	Mood=Ind|VerbForm=Fin	4	conj	_	_
 9	sunu	sama	DET	DET	Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	det	_	_
 10	yeene	yeene	NOUN	NOUN	_	8	obj	_	_
-11	ci	ci	ADP	PREP	_	13	case	_	_
+11	ci	ci	ADP	PREP	ExtPos=ADP	13	case	_	_
 12	kow	kow	NOUN	NOUN	_	11	fixed	_	_
 13	suuf	suuf	NOUN	NOUN	_	10	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	PERIOD	_	4	punct	_	_
@@ -11636,7 +11636,7 @@
 18	ak	ak	CCONJ	CONJ	_	19	cc	_	_
 19	jumtukaay	jumtukaay	NOUN	NOUN	_	9	conj	_	_
 20	yi	bi	DET	DET	Definite=Def|Deixis=Prox|NounClass=Wol8|Number=Plur|PronType=Art	19	det	_	_
-21	ci	ci	ADP	PREP	_	23	case	_	_
+21	ci	ci	ADP	PREP	ExtPos=ADP	23	case	_	_
 22	biir	biir	NOUN	NOUN	_	21	fixed	_	_
 23	gox	gox	NOUN	NOUN	_	19	nmod	_	_
 24	yi	bi	DET	DET	Definite=Def|Deixis=Prox|NounClass=Wol8|Number=Plur|PronType=Art	23	det	_	SpaceAfter=No
