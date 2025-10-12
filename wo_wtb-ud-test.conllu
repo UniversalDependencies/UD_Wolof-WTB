@@ -2916,7 +2916,7 @@
 2	ci	ci	ADP	PREP	_	3	case	_	_
 3	wolof	wolof	PROPN	NAME	_	1	obl	_	_
 4	soxlawul	soxla	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	0	root	_	_
-5	lu	lu	ADP	PREP	_	8	mark	_	_
+5	lu	lu	ADP	PREP	ExtPos=SCONJ	8	mark	_	_
 6	dul	dul	ADP	PREP	_	5	fixed	_	_
 7	mu	mu	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 8	man	man	VERB	VERB	Mood=Ind|VerbForm=Fin	4	ccomp	_	_
@@ -5722,7 +5722,7 @@
 12	manatul	man	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	2	ccomp	_	_
 13	a	a	PART	PART	_	14	mark	_	_
 14	def	def	VERB	VERB	VerbForm=Inf	12	xcomp	_	_
-15	lu	lu	ADP	PREP	_	17	mark	_	_
+15	lu	lu	ADP	PREP	ExtPos=SCONJ	17	mark	_	_
 16	dul	dul	ADP	PREP	_	15	fixed	_	_
 17	nangu	nangu	VERB	VERB	VerbForm=Inf	14	xcomp	_	_
 18	nag	nag	ADV	ADV	_	17	advmod	_	_
@@ -5864,7 +5864,7 @@
 10	weddi	weddi	VERB	VERB	Mood=Ind|VerbForm=Fin	8	acl:relcl	_	_
 11	bii	bii	DET	DET	Deixis=Prox|DeixisRef=1|NounClass=Wol5|Number=Sing|PronType=Dem	8	det	_	_
 12	manul	man	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	6	ccomp	_	_
-13	lu	lu	ADP	PREP	_	15	mark	_	_
+13	lu	lu	ADP	PREP	ExtPos=SCONJ	15	mark	_	_
 14	dul	dul	ADP	PREP	_	13	fixed	_	_
 15	nangu	nangu	VERB	VERB	VerbForm=Inf	12	xcomp	_	_
 16	dëppoo	dëppoo	NOUN	NOUN	_	15	obj	_	_
@@ -6329,7 +6329,7 @@
 12	fàcc	fàcc	NOUN	NOUN	_	14	nsubj	_	_
 13	du	di	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	14	aux	_	_
 14	def	def	VERB	VERB	Mood=Ind|VerbForm=Fin	3	ccomp	_	_
-15	lu	lu	ADP	PREP	_	17	mark	_	_
+15	lu	lu	ADP	PREP	ExtPos=SCONJ	17	mark	_	_
 16	dul	dul	ADP	PREP	_	15	fixed	_	_
 17	tas	tas	VERB	VERB	VerbForm=Inf	14	xcomp	_	_
 18	ne-ne	ne-ne	NOUN	NOUN	_	17	obj	_	SpaceAfter=No
@@ -6374,7 +6374,7 @@
 12	man	man	VERB	VERB	Mood=Ind|VerbForm=Fin	0	root	_	_
 13	a	a	PART	PART	_	14	mark	_	_
 14	def	def	VERB	VERB	VerbForm=Inf	12	xcomp	_	_
-15	lu	lu	ADP	PREP	_	17	mark	_	_
+15	lu	lu	ADP	PREP	ExtPos=SCONJ	17	mark	_	_
 16	dul	dul	ADP	PREP	_	15	fixed	_	_
 17	gëmloo	gëmloo	VERB	VERB	VerbForm=Inf	14	xcomp	_	_
 18	ci	ci	ADP	PREP	_	20	mark	_	_
@@ -7904,7 +7904,7 @@
 
 # sent_id = wo_wtb-ud-train_1054
 # text = Su dee ni ko yenn waay-xeltu yi di waxee namm-namm xarala dëggantaan mooy gësëm xelu nit ñi ba ñu xippi xool, gise neneen mbir yi leen wër.
-1	Su	su	SCONJ	COMP	_	9	mark	_	_
+1	Su	su	SCONJ	COMP	ExtPos=SCONJ	9	mark	_	_
 2	dee	di	VERB	COP	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	1	fixed	_	_
 3	ni	ni	ADV	ADV	Deixis=Prox|NounClass=Wol12|PronType=Dem	9	advmod	_	_
 4	ko	ko	PRON	CL	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
@@ -8472,7 +8472,7 @@
 
 # sent_id = wo_wtb-ud-train_1073
 # text = Su dee seetaan a daq cib ndajee kon lay ñëw ca kanam a war a gën a neex!
-1	Su	su	SCONJ	COMP	_	5	mark	_	_
+1	Su	su	SCONJ	COMP	ExtPos=SCONJ	5	mark	_	_
 2	dee	di	VERB	VERB	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	1	fixed	_	_
 3	seetaan	seetaan	VERB	VERB	VerbForm=Inf	5	csubj	_	_
 4	a	a	AUX	INFL	FocusType=Subj|Mood=Ind	5	aux	_	_
@@ -11434,7 +11434,7 @@
 11	,	,	PUNCT	COMMA	_	13	punct	_	_
 12	mu	bu	PRON	PRON	NounClass=Wol6|Number=Sing|Person=3|PronType=Rel	13	nsubj	_	_
 13	beggul	begg	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	9	acl:relcl	_	_
-14	lu	lu	ADP	PREP	_	16	mark	_	_
+14	lu	lu	ADP	PREP	ExtPos=SCONJ	16	mark	_	_
 15	dul	di	ADP	PREP	_	14	fixed	_	_
 16	tedd	tedd	VERB	VERB	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
 17	,	,	PUNCT	COMMA	_	18	punct	_	_

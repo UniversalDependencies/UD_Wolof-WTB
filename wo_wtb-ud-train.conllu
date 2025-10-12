@@ -6196,7 +6196,7 @@
 21	soob	soob	VERB	VERB	Mood=Ind|VerbForm=Fin	18	ccomp	_	SpaceAfter=No
 22	,	,	PUNCT	COMMA	_	29	punct	_	_
 23	ci	ci	ADP	PREP	_	29	mark	_	_
-24	lu	lu	ADP	PREP	_	29	mark	_	_
+24	lu	lu	ADP	PREP	ExtPos=SCONJ	29	mark	_	_
 25	dul	dul	ADP	PREP	_	24	fixed	_	_
 26	ñu	mu	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	29	nsubj	_	_
 27	ci	ci	ADP	PREP	_	29	obl	_	_
@@ -7090,7 +7090,7 @@
 19	daan	di	AUX	AUX	Aspect=Hab|Mood=Ind|Tense=Past	20	aux	_	_
 20	jëflante	jëflante	VERB	VERB	Mood=Ind|VerbForm=Fin	10	conj	_	_
 21	ci	ci	ADP	PREP	_	28	mark	_	_
-22	lu	lu	ADP	PREP	_	28	mark	_	_
+22	lu	lu	ADP	PREP	ExtPos=SCONJ	28	mark	_	_
 23	dul	dul	ADP	PREP	_	22	fixed	_	_
 24	yoonu	yoon	NOUN	NOUN	Case=Gen|Number=Sing	28	nsubj	_	_
 25	Otris	Otris	PROPN	NAME	_	24	nmod	_	_
@@ -10251,7 +10251,7 @@
 20	gi	bi	DET	DET	Definite=Def|Deixis=Prox|NounClass=Wol3|Number=Sing|PronType=Art	19	det	_	SpaceAfter=No
 21	,	,	PUNCT	COMMA	_	22	punct	_	_
 22	deful	def	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	12	parataxis	_	_
-23	lu	lu	ADP	PREP	_	25	mark	_	_
+23	lu	lu	ADP	PREP	ExtPos=SCONJ	25	mark	_	_
 24	dul	dul	ADP	PREP	_	23	fixed	_	_
 25	rëy	rëy	VERB	VERB	VerbForm=Inf	22	xcomp	_	_
 26	baayima	baayima	NOUN	NOUN	_	25	obj	_	_
@@ -10656,7 +10656,7 @@
 12	ag	ab	DET	DET	Definite=Ind|NounClass=Wol3|Number=Sing|PronType=Art	13	det	_	_
 13	dundam	dund	NOUN	NOUN	Number=Sing|Poss=Yes	10	iobj	_	_
 14	ci	ci	ADP	PREP	_	19	mark	_	_
-15	lu	lu	ADP	PREP	_	19	mark	_	_
+15	lu	lu	ADP	PREP	ExtPos=SCONJ	19	mark	_	_
 16	dul	dul	ADP	PREP	_	15	fixed	_	_
 17	di	di	AUX	AUX	Aspect=Imp|Mood=Ind|Tense=Pres	19	aux	_	_
 18	ko	ko	PRON	CL	Case=Acc|Number=Sing|Person=3|PronType=Prs	19	obj	_	_
@@ -19405,7 +19405,7 @@
 # sent_id = wo_wtb-ud-train_935
 # text = Te su dee palanet bi dafa tuuti ba ëpp guy yi bari fa lool dañu koy kalaate.
 1	Te	te	CCONJ	CONJ	_	20	cc	_	_
-2	su	su	SCONJ	COMP	_	8	mark	_	_
+2	su	su	SCONJ	COMP	ExtPos=SCONJ	8	mark	_	_
 3	dee	di	VERB	COP	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	2	fixed	_	_
 4	palanet	palanet	NOUN	NOUN	_	8	dislocated	_	_
 5	bi	bi	DET	DET	Definite=Def|Deixis=Prox|NounClass=Wol5|Number=Sing|PronType=Art	4	det	_	_
@@ -19602,7 +19602,7 @@
 # sent_id = wo_wtb-ud-train_943
 # text = Wante su dee liggéeyi guy yi la moom ag tóoxidoona la.
 1	Wante	wante	CCONJ	CONJ	_	10	cc	_	_
-2	su	su	SCONJ	COMP	_	4	mark	_	_
+2	su	su	SCONJ	COMP	ExtPos=SCONJ	4	mark	_	_
 3	dee	di	VERB	COP	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	2	fixed	_	_
 4	liggéeyi	liggéey	NOUN	NOUN	Case=Gen|Number=Plur	10	advcl	_	_
 5	guy	guy	NOUN	NOUN	_	4	nmod	_	_
@@ -21504,7 +21504,7 @@
 6	jaru	jar	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	0	root	_	_
 7	ko	ko	PRON	CL	Case=Acc|Number=Sing|Person=3|PronType=Prs	6	obj	_	SpaceAfter=No
 8	,	,	PUNCT	COMMA	_	18	punct	_	_
-9	su	su	SCONJ	COMP	_	15	mark	_	_
+9	su	su	SCONJ	COMP	ExtPos=SCONJ	15	mark	_	_
 10	dee	di	VERB	COP	Aspect=Imp|Mood=Ind|Tense=Past|VerbForm=Fin	9	fixed	_	_
 11	askan	askan	NOUN	NOUN	_	15	nsubj	_	_
 12-13	wee	_	_	_	_	_	_	_	_
@@ -24595,7 +24595,7 @@
 3	mëneesu	mën	VERB	VERB	Mood=Ind|Number=Sing|Person=0|Polarity=Neg|VerbForm=Fin	0	root	_	_
 4	ko	ko	PRON	CL	Case=Acc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
 5	fas	fas	VERB	VERB	VerbForm=Inf	3	xcomp	_	_
-6	lu	lu	ADP	PREP	_	17	mark	_	_
+6	lu	lu	ADP	PREP	ExtPos=SCONJ	17	mark	_	_
 7	dul	dul	ADP	PREP	_	6	fixed	_	_
 8	ñi	bi	PRON	PRON	Definite=Def|Deixis=Prox|NounClass=Wol2|Number=Plur|Person=3|PronType=Rel	17	dislocated	_	_
 9	nar	nar	VERB	VERB	Mood=Ind|VerbForm=Fin	8	acl:relcl	_	_
@@ -27573,7 +27573,7 @@
 32	lii	bii	PRON	PRON	Deixis=Prox|DeixisRef=1|NounClass=Wol7|Number=Sing|PronType=Dem	34	nsubj	_	_
 33	lépp	bépp	DET	DET	NounClass=Wol7|Number=Sing|PronType=Tot	32	det	_	_
 34	nammul	namm	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	20	ccomp	_	_
-35	lu	lu	ADP	PREP	_	37	mark	_	_
+35	lu	lu	ADP	PREP	ExtPos=SCONJ	37	mark	_	_
 36	dul	dul	ADP	PREP	_	35	fixed	_	_
 37	tàbbiji	tàbbiji	VERB	VERB	VerbForm=Inf	34	xcomp	_	_
 38	ci	ci	ADP	PREP	_	39	case	_	_

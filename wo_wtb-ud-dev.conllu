@@ -80,7 +80,7 @@
 11	lañu	la	AUX	INFL	FocusType=Compl|Mood=Ind|Number=Plur|Person=3	12	aux	_	_
 12	nekkoon	nekk	VERB	VERB	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 13	,	,	PUNCT	COMMA	_	18	punct	_	_
-14	ba	ba	SCONJ	COMP	_	18	mark	_	_
+14	ba	ba	SCONJ	COMP	ExtPos=SCONJ	18	mark	_	_
 15	kero	kero	ADV	ADV	_	14	fixed	_	_
 16-17	ñuy	_	_	_	_	_	_	_	_
 16	ñu	mu	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
@@ -4245,7 +4245,7 @@
 26	néew-gi-doole	néew-gi-doole	NOUN	NOUN	_	23	conj	_	_
 27	yi	bi	DET	DET	Definite=Def|Deixis=Prox|NounClass=Wol8|Number=Plur|PronType=Art	26	det	_	_
 28	ci	ci	ADP	PREP	_	32	mark	_	_
-29	lu	lu	ADP	PREP	_	32	mark	_	_
+29	lu	lu	ADP	PREP	ExtPos=SCONJ	32	mark	_	_
 30	dul	dul	ADP	PREP	_	29	fixed	_	_
 31	di	di	AUX	AUX	Aspect=Imp|Mood=Ind|Tense=Pres	32	aux	_	_
 32	sàkku	sàkku	VERB	VERB	Mood=Ind|VerbForm=Fin	8	advcl	_	_
@@ -7778,7 +7778,7 @@
 12	,	,	PUNCT	COMMA	_	13	punct	_	_
 13	am	am	VERB	VERB	VerbForm=Inf	10	conj	_	_
 14	tawféex	tawféex	NOUN	NOUN	_	13	obj	_	_
-15	ci	ci	ADP	PREP	_	17	mark	_	_
+15	ci	ci	ADP	PREP	ExtPos=SCONJ	17	mark	_	_
 16	kow	kow	NOUN	NOUN	_	15	fixed	_	_
 17	topp	topp	VERB	VERB	VerbForm=Inf	13	xcomp	_	_
 18	aadaa	aadaa	NOUN	NOUN	_	17	obj	_	SpaceAfter=No
