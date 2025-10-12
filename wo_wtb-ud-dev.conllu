@@ -9488,7 +9488,7 @@
 
 # sent_id = wo_wtb-ud-train_579
 # text = Le Monde: Lu tax nga bind Doomi Golo ci Wolof njëkk?
-1	Le	le	DET	DET	_	0	root	_	_
+1	Le	le	DET	DET	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing|PronType=Art	0	root	_	Lang=fr
 2	Monde	Monde	NOUN	NOUN	_	1	flat	_	SpaceAfter=No
 3	:	:	PUNCT	COLON	_	5	punct	_	_
 4	Lu	bu	PRON	PRON	NounClass=Wol7|Number=Sing|Person=3|PronType=Int	5	nsubj	_	_
@@ -9608,7 +9608,7 @@
 
 # sent_id = wo_wtb-ud-train_583
 # text = Le Monde: Ndax dafa am xew-xew bu am solo bu la sóob ci sopi làkk bi nga doon binde ba léegi?
-1	Le	le	DET	DET	_	7	parataxis	_	_
+1	Le	le	DET	DET	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing|PronType=Art	7	parataxis	_	Lang=fr
 2	Monde	Monde	NOUN	NOUN	_	1	flat	_	SpaceAfter=No
 3	:	:	PUNCT	COLON	_	7	punct	_	_
 4	Ndax	Ndax	ADV	ADV	PronType=Int	7	advmod	_	_
@@ -9829,7 +9829,7 @@
 
 # sent_id = wo_wtb-ud-train_592
 # text = Le Monde: Amul yenn saa yoo doon am siiki-saaka bi nga sumbee loolu?
-1	Le	le	DET	DET	_	4	parataxis	_	_
+1	Le	le	DET	DET	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing|PronType=Art	4	parataxis	_	Lang=fr
 2	Monde	Monde	NOUN	NOUN	_	1	flat	_	SpaceAfter=No
 3	:	:	PUNCT	COLON	_	4	punct	_	_
 4	Amul	am	VERB	VERB	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin	0	root	_	_
@@ -9949,7 +9949,7 @@
 
 # sent_id = wo_wtb-ud-train_597
 # text = Le Monde: Lu tax ay baati jiggéen?
-1	Le	le	DET	DET	_	7	parataxis	_	_
+1	Le	le	DET	DET	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing|PronType=Art	7	parataxis	_	Lang=fr
 2	Monde	Monde	NOUN	NOUN	_	1	flat	_	SpaceAfter=No
 3	:	:	PUNCT	COLON	_	7	punct	_	_
 4	Lu	bu	PRON	PRON	NounClass=Wol7|PronType=Int	7	advmod	_	_
@@ -10001,7 +10001,7 @@
 
 # sent_id = wo_wtb-ud-train_600
 # text = Le Monde: Lu la dellu xiir ci tekki Doomi Golo ci Nasaraan?
-1	Le	le	DET	DET	_	6	parataxis	_	_
+1	Le	le	DET	DET	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing|PronType=Art	6	parataxis	_	Lang=fr
 2	Monde	Monde	NOUN	NOUN	_	1	flat	_	SpaceAfter=No
 3	:	:	PUNCT	COLON	_	6	punct	_	_
 4	Lu	bu	PRON	PRON	NounClass=Wol7|Number=Sing|Person=3|PronType=Int	6	nsubj	_	_
@@ -10164,7 +10164,7 @@
 
 # sent_id = wo_wtb-ud-train_606
 # text = Le Monde: Ndax dinga ci bindaat ci Nasaraan?
-1	Le	le	DET	DET	_	7	parataxis	_	_
+1	Le	le	DET	DET	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing|PronType=Art	7	parataxis	_	Lang=fr
 2	Monde	Monde	NOUN	NOUN	_	1	flat	_	SpaceAfter=No
 3	:	:	PUNCT	COLON	_	7	punct	_	_
 4	Ndax	Ndax	ADV	ADV	PronType=Int	7	advmod	_	_
@@ -10304,7 +10304,7 @@
 
 # sent_id = wo_wtb-ud-train_613
 # text = Le Monde: Ndax ci sa téere yi am na bu ci nit ñi gën a sopp ci Afrik?
-1	Le	le	DET	DET	_	9	parataxis	_	_
+1	Le	le	DET	DET	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing|PronType=Art	9	parataxis	_	Lang=fr
 2	Monde	Monde	NOUN	NOUN	_	1	flat	_	SpaceAfter=No
 3	:	:	PUNCT	COLON	_	9	punct	_	_
 4	Ndax	Ndax	ADV	ADV	PronType=Int	9	advmod	_	_
@@ -10352,7 +10352,7 @@
 # sent_id = wo_wtb-ud-train_615
 # text = "Le temps de Tamango" itam ñu ngi koy nafar ci daara yu mag yi.
 1	"	"	PUNCT	QUOTE	_	2	punct	_	SpaceAfter=No
-2	Le	Le	DET	DET	_	12	dislocated	_	_
+2	Le	Le	DET	DET	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing|PronType=Art	12	dislocated	_	Lang=fr
 3	temps	temps	NOUN	NOUN	_	2	flat	_	_
 4	de	de	ADP	PREP	_	2	flat	_	_
 5	Tamango	Tamango	PROPN	NAME	_	2	flat	_	SpaceAfter=No

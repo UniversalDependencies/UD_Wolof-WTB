@@ -26597,7 +26597,7 @@
 5	way-jabet	way-jabet	NOUN	NOUN	_	19	dislocated	_	_
 6	1	1	NUM	NUMBER	NumType=Card	5	nummod	_	_
 7	(	(	PUNCT	PAREN	_	9	punct	_	SpaceAfter=No
-8	les	les	DET	DET	_	9	det	_	_
+8	les	les	DET	DET	Definite=Def|Foreign=Yes|Gender=Masc|Number=Plur|PronType=Art	9	det	_	Lang=fr
 9	diabétiques	diabétiques	NOUN	NOUN	_	5	appos	_	_
 10	de	de	ADP	PREP	_	11	case	_	_
 11	type	type	NOUN	NOUN	_	9	nmod	_	_
