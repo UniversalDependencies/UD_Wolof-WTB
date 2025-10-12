@@ -842,7 +842,7 @@
 21-22	moo	_	_	_	_	_	_	_	_
 21	mu	mu	PRON	PRON	Case=Nom|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
 22	a	a	AUX	INFL	FocusType=Subj|Mood=Ind	23	aux	_	_
-23	des	des	VERB	VERB	VerbForm=Fin	0	root	_	_
+23	des	des	VERB	VERB	Mood=Ind|VerbForm=Fin	0	root	_	_
 24	ci	ci	ADP	PREP	_	25	case	_	_
 25	loxoy	loxo	NOUN	NOUN	Case=Gen|Number=Plur	23	obl	_	_
 26	ñeeño	ñeeño	NOUN	NOUN	_	25	nmod	_	_
