@@ -19,6 +19,8 @@ The treebank is developed by Cheikh Bamba Dione. The syntactic annotation was ch
 
 # Changelog
 
+* 2025-11-15 v2.17
+  * Added ExtPos=ADV to the heads of adverbial fixed expressions.
 * 2021-05-15 v2.8
   * Removed the fake enhanced dependencies (some sentences had a copy of the basic tree, some had nothing).
 * 2019-05-15 v2.4

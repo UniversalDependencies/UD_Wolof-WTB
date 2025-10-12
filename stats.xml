@@ -33,7 +33,7 @@
     <tag name="VERB">7918</tag><!-- am, nekk, ne, xam, def, mën, war, wax, gën, mel -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="62">
+  <feats unique="63">
     <feat name="Aspect" value="Hab" upos="AUX,VERB">95</feat><!-- daan, daa, daawul, daawu, ngoonaan, waan -->
     <feat name="Aspect" value="Imp" upos="AUX,PRON,VERB">1536</feat><!-- di, du, doon, dina, dee, dees, duñu, dul, dinañu, deesu -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">1053</feat><!-- na, nañu, naa, defee, fekkee, nanu, nga, nekkee, tukkee, amee -->
@@ -48,6 +48,7 @@
     <feat name="Deixis" value="Remt" upos="ADV,AUX,DET,PRON">396</feat><!-- ba, fa, ga, ya, la, ña, wa, ja, ma, na -->
     <feat name="DeixisRef" value="1" upos="ADV,DET,PRON">256</feat><!-- bii, yii, lii, gii, jii, fii, nii, mii, wii, kii -->
     <feat name="DeixisRef" value="2" upos="ADV,DET,PRON">428</feat><!-- loolu, boobu, yooyu, noonu, googu, moomu, foofu, woowu, jooju, ñooñu -->
+    <feat name="ExtPos" value="ADV" upos="ADP,ADV,DET,NOUN,NUM,PRON,SCONJ,VERB">71</feat><!-- bu, lu, naka, ba, gën, fu, benn, diiroo, Am, Gannaaw -->
     <feat name="FocusType" value="Compl" upos="AUX">264</feat><!-- la, lañu, laa, lees, lanu, nga -->
     <feat name="FocusType" value="Subj" upos="AUX">467</feat><!-- a, maa, yaa -->
     <feat name="FocusType" value="Verb" upos="AUX">307</feat><!-- da, nañu -->
@@ -56,7 +57,7 @@
     <feat name="Gender" value="Masc" upos="ADJ,ADP,DET,NOUN">42</feat><!-- le, Africains, Livres, Monde, adolescents, animisme, bourreaux, centre, conseils, croissants -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">8</feat><!-- Doonkon, amkoon, deeskon, doonulkoon, mënkoon, narkoon, tegle, wax -->
     <feat name="Mood" value="Imp" upos="AUX,SCONJ,VERB">86</feat><!-- bu, kaay, moytul, nataalal, lekkleen, taamul, Jëlal, Seetal, Xoolal, fàtte -->
-    <feat name="Mood" value="Ind" upos="AUX,PRON,VERB">10046</feat><!-- di, na, a, da, la, am, ne, xam, lañu, nañu -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">10045</feat><!-- di, na, a, da, la, am, ne, xam, lañu, nañu -->
     <feat name="Mood" value="Opt" upos="AUX,VERB">73</feat><!-- na, nanu, nanga, nañu, baal, bàyyi, farlu, fekk, naa, nangeen -->
     <feat name="NounClass" value="Wol1" upos="DET,PRON">299</feat><!-- ku, kenn, ki, képp, keneen, kii, kooku, ka, Kan -->
     <feat name="NounClass" value="Wol10" upos="ADP,DET,PRON">259</feat><!-- wi, wu, aw, wa, woowu, wii, wenn, weneen, woowee, wan -->

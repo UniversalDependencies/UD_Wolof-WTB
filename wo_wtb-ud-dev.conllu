@@ -643,7 +643,7 @@
 
 # sent_id = wo_wtb-ud-train_3
 # text = Bu jëkk, nguur googu, ay socé ak ay séeréer, ñoo ko yoroon.
-1	Bu	bu	PRON	PRON	NounClass=Wol5|Number=Sing|Person=3|PronType=Rel	16	advmod	_	_
+1	Bu	bu	PRON	PRON	ExtPos=ADV|NounClass=Wol5|Number=Sing|Person=3|PronType=Rel	16	advmod	_	_
 2	jëkk	jëkk	VERB	VERB	Mood=Ind|VerbForm=Fin	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	COMMA	_	4	punct	_	_
 4	nguur	nguur	NOUN	NOUN	_	16	dislocated	_	_
@@ -3237,7 +3237,7 @@
 16	(	(	PUNCT	PAREN	_	17	punct	_	SpaceAfter=No
 17	ndundam	ndund	NOUN	NOUN	Number=Sing|Poss=Yes	12	appos	_	SpaceAfter=No
 18	)	)	PUNCT	PAREN	_	17	punct	_	_
-19	kemm	kemm	NOUN	NOUN	_	8	advmod	_	_
+19	kemm	kemm	NOUN	NOUN	ExtPos=ADV	8	advmod	_	_
 20	kàttanam	kàttan	NOUN	NOUN	Number=Sing|Poss=Yes	19	fixed	_	_
 21	ngir	ngir	ADP	PREP	_	22	case	_	_
 22	Yàlla	Yàlla	PROPN	NAME	_	8	obl	_	_
@@ -4326,7 +4326,7 @@
 30	,	,	PUNCT	COMMA	_	32	punct	_	_
 31	ak	ak	CCONJ	CONJ	_	32	cc	_	_
 32	wax	wax	VERB	VERB	VerbForm=Inf	26	conj	_	_
-33	as	ab	DET	DET	Definite=Ind|NounClass=Wol9|Number=Sing|PronType=Art	32	advmod	_	_
+33	as	ab	DET	DET	Definite=Ind|ExtPos=ADV|NounClass=Wol9|Number=Sing|PronType=Art	32	advmod	_	_
 34	tuut	tuut	NOUN	NOUN	_	33	fixed	_	_
 35	ci	ci	ADP	PREP	_	38	case	_	_
 36	seen	sama	DET	DET	Number=Sing|Person=2,3|Poss=Yes|PronType=Prs	38	det	_	_
@@ -5893,7 +5893,7 @@
 
 # sent_id = wo_wtb-ud-train_1636
 # text = Wax dëgg kii ak lu mu jàmbaare-jàmbaare matul royuwaay ñeel sunu soxnay jullit yi ngir ab pas-pas moo war a jëkk ci ag roy, te wuute nañu ci.
-1	Wax	wax	VERB	VERB	VerbForm=Inf	8	advmod	_	_
+1	Wax	wax	VERB	VERB	ExtPos=ADV|VerbForm=Inf	8	advmod	_	_
 2	dëgg	dëgg	NOUN	NOUN	_	1	fixed	_	_
 3	kii	bii	PRON	PRON	Deixis=Prox|DeixisRef=1|NounClass=Wol1|Number=Sing|PronType=Dem	8	nsubj	_	_
 4	ak	ak	ADP	PREP	_	5	case	_	_
@@ -7989,7 +7989,7 @@
 3	nga	mu	PRON	PRON	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
 4	ko	ko	PRON	CL	Case=Acc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
 5	seetloo	seetloo	VERB	VERB	Aspect=Perf|Mood=Ind|VerbForm=Fin	1	acl:relcl	_	_
-6	bu	bu	PRON	PRON	NounClass=Wol5|Number=Sing|Person=3|PronType=Rel	5	advmod	_	_
+6	bu	bu	PRON	PRON	ExtPos=ADV|NounClass=Wol5|Number=Sing|Person=3|PronType=Rel	5	advmod	_	_
 7	baax	baax	VERB	VERB	Mood=Ind|VerbForm=Fin	6	fixed	_	_
 8	ag	ab	DET	DET	Definite=Ind|NounClass=Wol3|Number=Sing|PronType=Art	9	det	_	_
 9	jàllarbi	jàllarbi	NOUN	NOUN	_	0	root	_	_
@@ -8434,7 +8434,7 @@
 6	nga	mu	PRON	PRON	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
 7	leen	ko	PRON	CL	Case=Acc|Number=Plur|Person=2,3|PronType=Prs	8	obj	_	_
 8	jàngee	jàng	VERB	VERB	Aspect=Perf|Mood=Ind|VerbForm=Fin	18	advcl	_	_
-9	bu	bu	PRON	PRON	NounClass=Wol5|Number=Sing|Person=3|PronType=Rel	8	advmod	_	_
+9	bu	bu	PRON	PRON	ExtPos=ADV|NounClass=Wol5|Number=Sing|Person=3|PronType=Rel	8	advmod	_	_
 10	baax	baax	VERB	VERB	Mood=Ind|VerbForm=Fin	9	fixed	_	SpaceAfter=No
 11	,	,	PUNCT	COMMA	_	18	punct	_	_
 12-13	dafa	_	_	_	_	_	_	_	_
@@ -9018,7 +9018,7 @@
 19	réew	réew	NOUN	NOUN	_	18	obj	_	_
 20	mépp	mépp	DET	DET	NounClass=Wol6|Number=Sing|PronType=Tot	19	det	_	SpaceAfter=No
 21	,	,	PUNCT	COMMA	_	27	punct	_	_
-22	amul	amul	ADV	ADV	_	27	advmod	_	_
+22	amul	amul	ADV	ADV	ExtPos=ADV	27	advmod	_	_
 23	xàjji-ag-seen	xàjji-ag-seen	NOUN	NOUN	_	22	fixed	_	_
 24	wan	wan	DET	DET	NounClass=Wol10|Number=Sing|PronType=Int	25	det	_	_
 25	làng	làng	NOUN	NOUN	_	27	obj	_	_
@@ -9313,7 +9313,7 @@
 26	ñu	mu	PRON	PRON	Case=Nom|Number=Plur|Person=3|PronType=Prs	28	nsubj	_	_
 27	koo	ko	PRON	CL	Case=Acc|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
 28	weddi	weddi	VERB	VERB	Mood=Ind|VerbForm=Fin	11	ccomp	_	_
-29	bu	bu	PRON	PRON	NounClass=Wol5|Number=Sing|Person=3|PronType=Rel	28	advmod	_	_
+29	bu	bu	PRON	PRON	ExtPos=ADV|NounClass=Wol5|Number=Sing|Person=3|PronType=Rel	28	advmod	_	_
 30	baax	baax	VERB	VERB	Mood=Ind|VerbForm=Fin	29	fixed	_	SpaceAfter=No
 31	:	:	PUNCT	COLON	_	33	punct	_	_
 32	ndax	ndax	SCONJ	COMP	_	33	mark	_	_
@@ -9952,7 +9952,7 @@
 1	Le	le	DET	DET	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing|PronType=Art	7	parataxis	_	Lang=fr
 2	Monde	Monde	NOUN	NOUN	_	1	flat	_	SpaceAfter=No
 3	:	:	PUNCT	COLON	_	7	punct	_	_
-4	Lu	bu	PRON	PRON	NounClass=Wol7|PronType=Int	7	advmod	_	_
+4	Lu	bu	PRON	PRON	ExtPos=ADV|NounClass=Wol7|PronType=Int	7	advmod	_	_
 5	tax	tax	VERB	VERB	Mood=Ind|VerbForm=Fin	4	fixed	_	_
 6	ay	ab	DET	DET	Definite=Ind|NounClass=Wol8|Number=Plur|PronType=Art	7	det	_	_
 7	baati	baat	NOUN	NOUN	Case=Gen|Number=Plur	0	root	_	_
@@ -9987,7 +9987,7 @@
 
 # sent_id = wo_wtb-ud-train_599
 # text = Ba tax seen Wolof dafa seet te mucc-ayib!
-1	Ba	ba	ADP	PREP	_	7	advmod	_	_
+1	Ba	ba	ADP	PREP	ExtPos=ADV	7	advmod	_	_
 2	tax	tax	VERB	VERB	VerbForm=Inf	1	fixed	_	_
 3	seen	sama	DET	DET	Number=Sing|Person=2,3|Poss=Yes|PronType=Prs	4	det	_	_
 4	Wolof	Wolof	PROPN	NAME	_	7	dislocated	_	_
@@ -10391,7 +10391,7 @@
 16	mu	mu	PRON	PRON	Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
 17	ngi	ngi	AUX	AUX	Aspect=Prog	18	aux	_	_
 18	law	law	VERB	VERB	Mood=Ind|VerbForm=Fin	5	ccomp	_	_
-19	bu	bu	PRON	PRON	NounClass=Wol5|Number=Sing|Person=3|PronType=Rel	18	advmod	_	_
+19	bu	bu	PRON	PRON	ExtPos=ADV|NounClass=Wol5|Number=Sing|Person=3|PronType=Rel	18	advmod	_	_
 20	baax	baax	VERB	VERB	Mood=Ind|VerbForm=Fin	19	fixed	_	_
 21	ci	ci	ADP	PREP	_	23	case	_	_
 22	biir	biir	ADP	PREP	_	23	case	_	_
@@ -11156,7 +11156,7 @@
 12	tax	tax	VERB	VERB	Mood=Ind|VerbForm=Fin	3	parataxis	_	_
 13	doo	di	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Neg|Tense=Pres	14	aux	_	_
 14	xiif	xiif	VERB	VERB	Mood=Ind|VerbForm=Fin	12	ccomp	_	_
-15	bu	bu	PRON	PRON	NounClass=Wol5|Number=Sing|Person=3|PronType=Rel	14	advmod	_	_
+15	bu	bu	PRON	PRON	ExtPos=ADV|NounClass=Wol5|Number=Sing|Person=3|PronType=Rel	14	advmod	_	_
 16	baax	baax	VERB	VERB	Mood=Ind|VerbForm=Fin	15	fixed	_	SpaceAfter=No
 17	,	,	PUNCT	COMMA	_	22	punct	_	_
 18	su	su	SCONJ	COMP	_	20	mark	_	_
@@ -11226,7 +11226,7 @@
 9	20	20	NUM	NUMBER	NumType=Card	6	appos	_	SpaceAfter=No
 10	)	)	PUNCT	PAREN	_	9	punct	_	SpaceAfter=No
 11	,	,	PUNCT	COMMA	_	12	punct	_	_
-12	gën	gën	ADV	ADV	_	5	advmod	_	_
+12	gën	gën	ADV	ADV	ExtPos=ADV	5	advmod	_	_
 13	jaa	jaa	DET	DET	Definite=Def|Deixis=Prox|NounClass=Wol4|Number=Sing|PronType=Art	12	fixed	_	_
 14	néew	néew	VERB	VERB	Mood=Ind|VerbForm=Fin	12	fixed	_	SpaceAfter=No
 15	,	,	PUNCT	COMMA	_	17	punct	_	_
@@ -11835,7 +11835,7 @@
 13	di	di	AUX	AUX	Aspect=Imp|Mood=Ind|Tense=Pres	14	aux	_	_
 14	saxaar	saxaar	VERB	VERB	Mood=Ind|VerbForm=Fin	11	ccomp	_	SpaceAfter=No
 15	,	,	PUNCT	COMMA	_	18	punct	_	_
-16	naka	naka	ADV	ADV	_	18	advmod	_	_
+16	naka	naka	ADV	ADV	ExtPos=ADV	18	advmod	_	_
 17	noonu	noonu	ADV	ADV	_	16	fixed	_	_
 18	garab	garab	NOUN	NOUN	_	6	conj	_	_
 19	yi	bi	PRON	PRON	Definite=Def|Deixis=Prox|NounClass=Wol8|Number=Plur|Person=3|PronType=Rel	21	nsubj	_	_
@@ -11864,7 +11864,7 @@
 5	mën	mën	VERB	VERB	VerbForm=Inf	1	advcl	_	_
 6	a	a	PART	PART	_	7	mark	_	_
 7	nelaw	nelaw	VERB	VERB	VerbForm=Inf	5	xcomp	_	_
-8	bu	bu	PRON	PRON	NounClass=Wol5|Number=Sing|Person=3|PronType=Rel	7	advmod	_	_
+8	bu	bu	PRON	PRON	ExtPos=ADV|NounClass=Wol5|Number=Sing|Person=3|PronType=Rel	7	advmod	_	_
 9	baax	baax	VERB	VERB	Mood=Ind|VerbForm=Fin	8	fixed	_	SpaceAfter=No
 10	,	,	PUNCT	COMMA	_	15	punct	_	_
 11	lu	lu	ADV	ADV	_	15	advmod	_	_
