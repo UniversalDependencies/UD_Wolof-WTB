@@ -2881,7 +2881,7 @@
 
 # sent_id = wo_wtb-ud-train_1669
 # text = Tàggat nit ki ci làkk wi mu dégg moo gën a yomb juróom ñaari yoon - gën gaa néew - tàggat ko ci lammiñu jàmbur.
-1	Tàggat	tàggat	VERB	VERB	VerbForm=Inf	11	csubj	_	_
+1	Tàggat	tàggat	VERB	VERB	VerbForm=Inf	11	dislocated	_	_
 2	nit	nit	NOUN	NOUN	_	1	obj	_	_
 3	ki	bi	DET	DET	Definite=Def|Deixis=Prox|NounClass=Wol1|Number=Sing|PronType=Art	2	det	_	_
 4	ci	ci	ADP	PREP	_	5	case	_	_
@@ -11485,7 +11485,7 @@
 # sent_id = wo_wtb-ud-train_1300
 # text = Ngir xeex bëtt-bëttu wasin «fistule obstétrique» dafa laaj kilifa yi amal aw tëralin wu matale, daj réew mépp loolu la Profesëer Magéy Géy xalaat, njiital bànqaas bi màcc ci mbirum awra ak sawukaay, ci oppitaalu Grã Yoof.
 1	Ngir	ngir	ADP	PREP	_	2	mark	_	_
-2	xeex	xeex	VERB	VERB	VerbForm=Inf	11	csubj	_	_
+2	xeex	xeex	VERB	VERB	VerbForm=Inf	11	advcl	_	_
 3	bëtt-bëttu	bëtt-bëtt	NOUN	NOUN	Case=Gen|Number=Sing	2	obj	_	_
 4	wasin	wasin	NOUN	NOUN	_	3	nmod	_	_
 5	«	«	PUNCT	QUOTE	_	6	punct	_	SpaceAfter=No

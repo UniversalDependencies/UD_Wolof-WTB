@@ -21,6 +21,7 @@ The treebank is developed by Cheikh Bamba Dione. The syntactic annotation was ch
 
 * 2025-11-15 v2.17
   * Added ExtPos to the heads of fixed expressions.
+  * Fixed: multiple subjects or objects under the same predicate.
 * 2021-05-15 v2.8
   * Removed the fake enhanced dependencies (some sentences had a copy of the basic tree, some had nothing).
 * 2019-05-15 v2.4
