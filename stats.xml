@@ -33,7 +33,7 @@
     <tag name="VERB">7918</tag><!-- am, nekk, ne, xam, def, mën, war, wax, gën, mel -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="61">
+  <feats unique="66">
     <feat name="Aspect" value="Hab" upos="AUX,VERB">95</feat><!-- daan, daa, daawul, daawu, ngoonaan, waan -->
     <feat name="Aspect" value="Imp" upos="AUX,PRON,VERB">1536</feat><!-- di, du, doon, dina, dee, dees, duñu, dul, dinañu, deesu -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">1053</feat><!-- na, nañu, naa, defee, fekkee, nanu, nga, nekkee, tukkee, amee -->
@@ -41,21 +41,26 @@
     <feat name="Case" value="Acc" upos="PRON">1065</feat><!-- ko, leen, ma, la, nu, koo, maa -->
     <feat name="Case" value="Gen" upos="NOUN,PROPN">1317</feat><!-- wàllu, atum, doomi, mbooleem, làkki, njiitu, réewum, nguuru, nguurug, xam-xamu -->
     <feat name="Case" value="Nom" upos="PRON">1986</feat><!-- mu, ñu, nga, ma, nu, ngeen, Yeen -->
-    <feat name="Definite" value="Def" upos="AUX,DET,PRON">2280</feat><!-- yi, bi, gi, li, mi, ñi, wi, ba, ji, si -->
+    <feat name="Definite" value="Def" upos="AUX,DET,PRON">2289</feat><!-- yi, bi, gi, li, mi, ñi, wi, ba, ji, si -->
     <feat name="Definite" value="Ind" upos="ADP,DET">856</feat><!-- ay, ag, ab, i, benn, am, aw, as, genn, yenn -->
     <feat name="Deixis" value="Med" upos="ADV,DET,PRON">37</feat><!-- foofa, loola, booba, boobee, yooya, woowee, yooyee, jooja, noona, Loolee -->
     <feat name="Deixis" value="Prox" upos="ADV,DET,PRON">2727</feat><!-- yi, bi, gi, li, mi, loolu, ñi, wi, fi, ji -->
     <feat name="Deixis" value="Remt" upos="ADV,AUX,DET,PRON">396</feat><!-- ba, fa, ga, ya, la, ña, wa, ja, ma, na -->
     <feat name="DeixisRef" value="1" upos="ADV,DET,PRON">256</feat><!-- bii, yii, lii, gii, jii, fii, nii, mii, wii, kii -->
     <feat name="DeixisRef" value="2" upos="ADV,DET,PRON">428</feat><!-- loolu, boobu, yooyu, noonu, googu, moomu, foofu, woowu, jooju, ñooñu -->
+    <feat name="ExtPos" value="ADP" upos="ADP">79</feat><!-- ci, lu, ca -->
+    <feat name="ExtPos" value="ADV" upos="ADP,ADV,DET,NOUN,NUM,PRON,SCONJ,VERB">71</feat><!-- bu, lu, naka, ba, gën, fu, benn, diiroo, Am, Gannaaw -->
+    <feat name="ExtPos" value="INTJ" upos="INTJ">7</feat><!-- Alaa, Allaahu, Bismil, Ey, Waaw, gàcce, lawla -->
+    <feat name="ExtPos" value="SCONJ" upos="ADP,SCONJ">20</feat><!-- lu, su, ba, ci -->
     <feat name="FocusType" value="Compl" upos="AUX">264</feat><!-- la, lañu, laa, lees, lanu, nga -->
     <feat name="FocusType" value="Subj" upos="AUX">467</feat><!-- a, maa, yaa -->
     <feat name="FocusType" value="Verb" upos="AUX">307</feat><!-- da, nañu -->
+    <feat name="Foreign" value="Yes" upos="DET">9</feat><!-- Le, les -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN">37</feat><!-- l', crise, fistule, obstétrique, Assises, Aternative, Coalition, Laicite, Nationales, administration -->
-    <feat name="Gender" value="Masc" upos="ADJ,ADP,DET,NOUN">33</feat><!-- le, Africains, Livres, Monde, adolescents, animisme, bourreaux, centre, conseils, croissants -->
+    <feat name="Gender" value="Masc" upos="ADJ,ADP,DET,NOUN">42</feat><!-- le, Africains, Livres, Monde, adolescents, animisme, bourreaux, centre, conseils, croissants -->
     <feat name="Mood" value="Cnd" upos="AUX,VERB">8</feat><!-- Doonkon, amkoon, deeskon, doonulkoon, mënkoon, narkoon, tegle, wax -->
     <feat name="Mood" value="Imp" upos="AUX,SCONJ,VERB">86</feat><!-- bu, kaay, moytul, nataalal, lekkleen, taamul, Jëlal, Seetal, Xoolal, fàtte -->
-    <feat name="Mood" value="Ind" upos="AUX,PRON,VERB">10046</feat><!-- di, na, a, da, la, am, ne, xam, lañu, nañu -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">10045</feat><!-- di, na, a, da, la, am, ne, xam, lañu, nañu -->
     <feat name="Mood" value="Opt" upos="AUX,VERB">73</feat><!-- na, nanu, nanga, nañu, baal, bàyyi, farlu, fekk, naa, nangeen -->
     <feat name="NounClass" value="Wol1" upos="DET,PRON">299</feat><!-- ku, kenn, ki, képp, keneen, kii, kooku, ka, Kan -->
     <feat name="NounClass" value="Wol10" upos="ADP,DET,PRON">259</feat><!-- wi, wu, aw, wa, woowu, wii, wenn, weneen, woowee, wan -->
@@ -69,8 +74,8 @@
     <feat name="NounClass" value="Wol7" upos="ADP,AUX,DET,PRON">813</feat><!-- lu, li, loolu, lépp, la, lii, lenn, leneen, lan, loola -->
     <feat name="NounClass" value="Wol8" upos="ADP,DET,PRON">1489</feat><!-- yi, ay, yu, i, ya, yii, yooyu, yeneen, yépp, yenn -->
     <feat name="NounClass" value="Wol9" upos="ADP,DET,PRON">153</feat><!-- si, su, as, sépp, sa, senn, soosu, sii, am, soosii -->
-    <feat name="Number" value="Plur" upos="ADJ,ADP,AUX,DET,NOUN,PRON,VERB">3484</feat><!-- ñu, yi, ay, yu, leen, nañu, ñi, lañu, nu, i -->
-    <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,VERB">9463</feat><!-- mu, ko, na, bi, la, lu, bu, gi, li, nga -->
+    <feat name="Number" value="Plur" upos="ADJ,ADP,AUX,DET,NOUN,PRON,VERB">3485</feat><!-- ñu, yi, ay, yu, leen, nañu, ñi, lañu, nu, i -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,DET,NOUN,PRON,PROPN,VERB">9471</feat><!-- mu, ko, na, bi, la, lu, bu, gi, li, nga -->
     <feat name="NumType" value="Card" upos="NUM">513</feat><!-- ñaari, fukk, benn, juróom, 1, ñeent, ñeenti, 2, ñatt, juróom-benni -->
     <feat name="NumType" value="Ord" upos="NUM">26</feat><!-- ñaareelu, ñeenteelu, ñaar-fukkeelu, fukkeelu, 12eelu, 15eelu, 50eelu, fukkeel, juróom-ñaareeli, ñaareel -->
     <feat name="Person" value="0" upos="AUX,VERB">124</feat><!-- dees, mënees, mëneesu, deesul, lees, manees, gisees, jàppees, mëneesul, sañees -->
@@ -80,7 +85,7 @@
     <feat name="Person" value="3" upos="ADP,AUX,DET,PRON,VERB">6513</feat><!-- mu, ko, ñu, na, la, lu, yu, bu, gu, li -->
     <feat name="Polarity" value="Neg" upos="ADV,AUX,SCONJ,VERB">591</feat><!-- du, amul, bu, duñu, dul, mënul, deesu, manul, mukk, mëneesu -->
     <feat name="Poss" value="Yes" upos="DET,NOUN,PROPN">652</feat><!-- seen, sunu, sa, sama, seeni, réewam, jëmmam, seenug, doomam, njabootam -->
-    <feat name="PronType" value="Art" upos="ADP,DET,PRON">2300</feat><!-- yi, bi, ay, ag, gi, mi, ab, wi, i, si -->
+    <feat name="PronType" value="Art" upos="ADP,DET,PRON">2309</feat><!-- yi, bi, ay, ag, gi, mi, ab, wi, i, si -->
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">860</feat><!-- loolu, fi, fa, boobu, yooyu, bii, yii, noonu, lii, ni -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">119</feat><!-- yeneen, beneen, leneen, ñeneen, geneen, feneen, keneen, weneen, meneen, jeneen -->
     <feat name="PronType" value="Ind,Neg" upos="ADV,DET,PRON">95</feat><!-- kenn, lenn, benn, yenn, ñenn, fenn -->
@@ -100,7 +105,7 @@
   <deps unique="40">
     <dep name="acl">123</dep>
     <dep name="acl:relcl">2337</dep>
-    <dep name="advcl">838</dep>
+    <dep name="advcl">839</dep>
     <dep name="advmod">1445</dep>
     <dep name="amod">12</dep>
     <dep name="appos">298</dep>
@@ -113,22 +118,22 @@
     <dep name="compound:svc">75</dep>
     <dep name="conj">1877</dep>
     <dep name="cop">600</dep>
-    <dep name="csubj">48</dep>
+    <dep name="csubj">41</dep>
     <dep name="csubj:outer">2</dep>
     <dep name="det">3138</dep>
     <dep name="discourse">47</dep>
-    <dep name="dislocated">940</dep>
+    <dep name="dislocated">946</dep>
     <dep name="expl">4</dep>
     <dep name="fixed">196</dep>
     <dep name="flat">622</dep>
-    <dep name="iobj">298</dep>
+    <dep name="iobj">299</dep>
     <dep name="iobj:appl">7</dep>
     <dep name="mark">1834</dep>
     <dep name="nmod">1823</dep>
     <dep name="nmod:poss">1</dep>
     <dep name="nsubj">4679</dep>
     <dep name="nummod">377</dep>
-    <dep name="obj">3319</dep>
+    <dep name="obj">3318</dep>
     <dep name="obj:appl">76</dep>
     <dep name="obj:caus">118</dep>
     <dep name="obl">2139</dep>

@@ -19,6 +19,9 @@ The treebank is developed by Cheikh Bamba Dione. The syntactic annotation was ch
 
 # Changelog
 
+* 2025-11-15 v2.17
+  * Added ExtPos to the heads of fixed expressions.
+  * Fixed: multiple subjects or objects under the same predicate.
 * 2021-05-15 v2.8
   * Removed the fake enhanced dependencies (some sentences had a copy of the basic tree, some had nothing).
 * 2019-05-15 v2.4
@@ -30,6 +33,7 @@ The treebank is developed by Cheikh Bamba Dione. The syntactic annotation was ch
 Data available since: UD v2.4
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: bible wiki
 Lemmas: manual native
 UPOS: manual native
