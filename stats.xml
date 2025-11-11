@@ -50,7 +50,7 @@
     <feat name="DeixisRef" value="2" upos="ADV,DET,PRON">428</feat><!-- loolu, boobu, yooyu, noonu, googu, moomu, foofu, woowu, jooju, ñooñu -->
     <feat name="ExtPos" value="ADP" upos="ADP">79</feat><!-- ci, lu, ca -->
     <feat name="ExtPos" value="ADV" upos="ADP,ADV,DET,NOUN,NUM,PRON,SCONJ,VERB">71</feat><!-- bu, lu, naka, ba, gën, fu, benn, diiroo, Am, Gannaaw -->
-    <feat name="ExtPos" value="INTJ" upos="INTJ">4</feat><!-- Alaa, Ey, gàcce, lawla -->
+    <feat name="ExtPos" value="INTJ" upos="INTJ">7</feat><!-- Alaa, Allaahu, Bismil, Ey, Waaw, gàcce, lawla -->
     <feat name="ExtPos" value="SCONJ" upos="ADP,SCONJ">20</feat><!-- lu, su, ba, ci -->
     <feat name="FocusType" value="Compl" upos="AUX">264</feat><!-- la, lañu, laa, lees, lanu, nga -->
     <feat name="FocusType" value="Subj" upos="AUX">467</feat><!-- a, maa, yaa -->
@@ -105,7 +105,7 @@
   <deps unique="40">
     <dep name="acl">123</dep>
     <dep name="acl:relcl">2337</dep>
-    <dep name="advcl">838</dep>
+    <dep name="advcl">839</dep>
     <dep name="advmod">1445</dep>
     <dep name="amod">12</dep>
     <dep name="appos">298</dep>
@@ -118,22 +118,22 @@
     <dep name="compound:svc">75</dep>
     <dep name="conj">1877</dep>
     <dep name="cop">600</dep>
-    <dep name="csubj">48</dep>
+    <dep name="csubj">41</dep>
     <dep name="csubj:outer">2</dep>
     <dep name="det">3138</dep>
     <dep name="discourse">47</dep>
-    <dep name="dislocated">940</dep>
+    <dep name="dislocated">946</dep>
     <dep name="expl">4</dep>
     <dep name="fixed">196</dep>
     <dep name="flat">622</dep>
-    <dep name="iobj">298</dep>
+    <dep name="iobj">299</dep>
     <dep name="iobj:appl">7</dep>
     <dep name="mark">1834</dep>
     <dep name="nmod">1823</dep>
     <dep name="nmod:poss">1</dep>
     <dep name="nsubj">4679</dep>
     <dep name="nummod">377</dep>
-    <dep name="obj">3319</dep>
+    <dep name="obj">3318</dep>
     <dep name="obj:appl">76</dep>
     <dep name="obj:caus">118</dep>
     <dep name="obl">2139</dep>
