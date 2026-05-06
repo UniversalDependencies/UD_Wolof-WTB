@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Wolof-WTB:
-commit f5ee0bae9fcb8faa54838d976b67421e8779be6c
-Merge: cbd389e 7445d82
+commit 575a3ab64619a91de9950f01afb7c9f2d8cd28c4
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 21:02:34 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'wo_wtb'
 Language code (from CoNLL-U file name) = 'wo'
@@ -25,22 +25,22 @@ Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang wo --max-err=10 UD_Wolof-WTB/wo_wtb-ud-dev.conllu
-[Line 5033 Sent wo_wtb-ud-train_1608]: [L3 Warning fixed-without-extpos] Fixed expression 'ku ne' does not have the 'ExtPos' feature
-[Line 11051 Sent wo_wtb-ud-train_1327]: [L3 Warning fixed-without-extpos] Fixed expression 'ku ne' does not have the 'ExtPos' feature
+[Line 5033 Sent wo_wtb-ud-train_1608]: [L3 WARNING fixed-without-extpos] Fixed expression 'ku ne' does not have the 'ExtPos' feature
+[Line 11051 Sent wo_wtb-ud-train_1327]: [L3 WARNING fixed-without-extpos] Fixed expression 'ku ne' does not have the 'ExtPos' feature
 Warnings: 2
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang wo --max-err=10 UD_Wolof-WTB/wo_wtb-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang wo --max-err=10 UD_Wolof-WTB/wo_wtb-ud-train.conllu
-[Line 1170 Sent wo_wtb-ud-train_86]: [L3 Warning fixed-without-extpos] Fixed expression 'ku nekk' does not have the 'ExtPos' feature
-[Line 2008 Sent wo_wtb-ud-train_127]: [L3 Warning fixed-without-extpos] Fixed expression 'ku nekk' does not have the 'ExtPos' feature
-[Line 2180 Sent wo_wtb-ud-train_202]: [L3 Warning fixed-without-extpos] Fixed expression 'lu bari' does not have the 'ExtPos' feature
-[Line 2946 Sent wo_wtb-ud-train_243]: [L3 Warning fixed-without-extpos] Fixed expression 'Ku nekk' does not have the 'ExtPos' feature
-[Line 6279 Sent wo_wtb-ud-train_1449]: [L3 Warning fixed-without-extpos] Fixed expression 'bu ci nekk' does not have the 'ExtPos' feature
-[Line 17516 Sent wo_wtb-ud-train_837]: [L3 Warning fixed-without-extpos] Fixed expression 'Lu tax' does not have the 'ExtPos' feature
-[Line 17787 Sent wo_wtb-ud-train_852]: [L3 Warning fixed-without-extpos] Fixed expression 'àddina wërngël-képp' does not have the 'ExtPos' feature
-[Line 23465 Sent wo_wtb-ud-train_1153]: [L3 Warning fixed-without-extpos] Fixed expression 'ku ne' does not have the 'ExtPos' feature
-[Line 23480 Sent wo_wtb-ud-train_1153]: [L3 Warning fixed-without-extpos] Fixed expression 'ku ne' does not have the 'ExtPos' feature
+[Line 1170 Sent wo_wtb-ud-train_86]: [L3 WARNING fixed-without-extpos] Fixed expression 'ku nekk' does not have the 'ExtPos' feature
+[Line 2008 Sent wo_wtb-ud-train_127]: [L3 WARNING fixed-without-extpos] Fixed expression 'ku nekk' does not have the 'ExtPos' feature
+[Line 2180 Sent wo_wtb-ud-train_202]: [L3 WARNING fixed-without-extpos] Fixed expression 'lu bari' does not have the 'ExtPos' feature
+[Line 2946 Sent wo_wtb-ud-train_243]: [L3 WARNING fixed-without-extpos] Fixed expression 'Ku nekk' does not have the 'ExtPos' feature
+[Line 6279 Sent wo_wtb-ud-train_1449]: [L3 WARNING fixed-without-extpos] Fixed expression 'bu ci nekk' does not have the 'ExtPos' feature
+[Line 17516 Sent wo_wtb-ud-train_837]: [L3 WARNING fixed-without-extpos] Fixed expression 'Lu tax' does not have the 'ExtPos' feature
+[Line 17787 Sent wo_wtb-ud-train_852]: [L3 WARNING fixed-without-extpos] Fixed expression 'àddina wërngël-képp' does not have the 'ExtPos' feature
+[Line 23465 Sent wo_wtb-ud-train_1153]: [L3 WARNING fixed-without-extpos] Fixed expression 'ku ne' does not have the 'ExtPos' feature
+[Line 23480 Sent wo_wtb-ud-train_1153]: [L3 WARNING fixed-without-extpos] Fixed expression 'ku ne' does not have the 'ExtPos' feature
 Warnings: 9
 *** PASSED ***
 Validity: 1
